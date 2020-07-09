@@ -1,4 +1,17 @@
+[![cover](./img/github.png)]()
+
+[![linkedin badge](https://img.shields.io/badge/Andrew_Brudnak-30302f?style=flat&logo=linkedin)](https://www.linkedin.com/in/andrew-brudnak/) [![twitter badge](https://img.shields.io/badge/@Andrew__Brudnak-30302f?style=flat&logo=twitter)](https://twitter.com/Andrew_Brudnak)
+
+---
+
 ### Hi there 👋
+
+- :owl: I'm currently working on my (B.S.) in Software Development
+- :whale: I'm currently learning: Docker, Go, and Angular
+- :mortar_board: Scottsdale Community College alumni (A.A.S.)
+- :foggy: Lambda School alumni (**Web 20** | **Labs 15** | **CS 22**)
+- :art: Fun fact: The creator of CSS follows me on Twitter
+- :purple_heart: Favorite CSS color: [rebeccapurple](https://medium.com/@valgaze/the-hidden-purple-memorial-in-your-web-browser-7d84813bb416)
 
 <!--
 **brudnak/brudnak** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
