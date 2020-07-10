@@ -6,7 +6,7 @@
 
 ### Hi there 👋
 
-- :owl: I'm currently working on my (B.S.) in Software Development
+- :owl: I'm currently working on my (B.S.) in Software Development at **WGU**
 - :whale: I'm currently learning: Docker, Go, and Angular
 - :mortar_board: **Scottsdale Community College** alumni (A.A.S.)
 - :foggy: **Lambda School** alumni (**Web 20** | **Labs 15** | **CS 22**)
