@@ -1,4 +1,4 @@
-[![cover](https://i.imgur.com/ONmxsdF.png)]()
+[![cover](https://i.imgur.com/zg6Ndm9.jpg)]()
 
 [![linkedin badge](https://img.shields.io/badge/Andrew_Brudnak-30302f?style=flat&logo=linkedin)](https://www.linkedin.com/in/andrew-brudnak/) [![twitter badge](https://img.shields.io/badge/@Andrew__Brudnak-30302f?style=flat&logo=twitter)](https://twitter.com/Andrew_Brudnak)
 
