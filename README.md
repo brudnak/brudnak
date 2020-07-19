@@ -4,6 +4,8 @@
 
 ---
 
+![brudnak's github stats](https://github-readme-stats.vercel.app/api?username=brudnak&show_icons=true&theme=radical)
+
 ### Hi there 👋
 
 - :owl: I'm currently working on my (B.S.) in Software Development at **WGU**
