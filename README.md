@@ -4,7 +4,7 @@
 
 ---
 
-![brudnak's github stats](https://github-readme-stats.vercel.app/api?username=brudnak&show_icons=true&theme=radical)
+![brudnak's github stats](https://github-readme-stats.vercel.app/api?username=brudnak&show_icons=true&theme=tokyonight)
 
 ### Hi there 👋
 
