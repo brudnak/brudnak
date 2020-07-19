@@ -10,12 +10,12 @@
 
 - :owl: I'm currently working on my (B.S.) in Software Development at **WGU**
 - :whale: I'm currently learning: Docker, Go, and Angular
-- :mortar_board: **Scottsdale Community College** alumni (A.A.S.)
+- :mortar_board: **Scottsdale Community College** alumni (A.A.S.) in Web Development
 - :foggy: **Lambda School** alumni (**Web 20** | **Labs 15** | **CS 22**)
 - :art: Fun fact: The creator of CSS follows me on Twitter
 - :purple_heart: Favorite CSS color: [rebeccapurple](https://medium.com/@valgaze/the-hidden-purple-memorial-in-your-web-browser-7d84813bb416)
 - :atom: I love React but have never used Facebook
-- :octocat: 80% of my time online is spent on GitHub
+- :octocat: Most of my time online is spent on GitHub
 - :shipit: Support Programmer Analyst at Sprouts Farmers Market
 
 <!--
