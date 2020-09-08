@@ -4,9 +4,6 @@
 
 ---
 
-![brudnak's top langs](https://github-readme-stats.vercel.app/api/top-langs/?username=brudnak&hide=html)
-![brudnak's github stats](https://github-readme-stats.vercel.app/api?username=brudnak&show_icons=true&count_private=true&line_height=40)
-
 ### Hi there 👋
 
 - :owl: I'm currently working on my (B.S.) in Software Development at **WGU**
