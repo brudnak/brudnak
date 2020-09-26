@@ -1,4 +1,6 @@
-[![cover](https://github.com/brudnak/brudnak/blob/master/brudnak-github.gif)]()
+[![cover](https://github.com/brudnak/brudnak/blob/master/brudnak-golang.png)]()
+
+<img src="https://github.com/brudnak/brudnak/blob/master/brudnak-golang.png" alt="golang" width="500"/>
 
 [![linkedin badge](https://img.shields.io/badge/Andrew_Brudnak-30302f?style=flat&logo=linkedin)](https://www.linkedin.com/in/andrew-brudnak/) [![twitter badge](https://img.shields.io/badge/@Andrew__Brudnak-30302f?style=flat&logo=twitter)](https://twitter.com/Andrew_Brudnak)
 
