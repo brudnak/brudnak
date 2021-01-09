@@ -4,9 +4,9 @@
 
 ---
 
-### Get in touch [brudnak@protonmail.com](brudnak@protonmail.com) 📬
+### 👋 Hi there
 
-### Hi there 👋
+### 📫 Get in touch <a href="mailto:brudnak@protonmail.com">brudnak@protonmail.com</a>
 
 - :owl: I'm currently working on my (B.S.) in Software Development at **WGU**
 - :whale: I'm passionate about the Go programming language
