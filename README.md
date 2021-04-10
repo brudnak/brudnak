@@ -8,7 +8,7 @@
 
 - :sparkling_heart: Associate Software Engineer at T-Mobile
 - :fox_face: I'm on GitLab [gitlab.com/brudnak](https://gitlab.com/brudnak)
-- :city_sunset: I'm on Bitbucket [bitbucket.org/brudnak/](https://bitbucket.org/brudnak)
+- :city_sunset: I'm on Bitbucket [bitbucket.org/brudnak](https://bitbucket.org/brudnak)
 - :email: Get in touch <a href="mailto:brudnak@protonmail.com">brudnak@protonmail.com</a>
 - :owl: I'm currently working on my (B.S.) in Software Development at **WGU**
 - :whale: I'm passionate about the Go programming language
