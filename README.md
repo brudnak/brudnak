@@ -15,3 +15,9 @@
 - :mortar_board: **Scottsdale Community College** alumni (A.A.S.) in Web Development
 - :foggy: **Lambda School** alumni (**Web 20** | **Labs 15** | **CS 22**)
 - :purple_heart: Favorite CSS color: [rebeccapurple](https://medium.com/@valgaze/the-hidden-purple-memorial-in-your-web-browser-7d84813bb416)
+
+https://raw.githubusercontent.com/brudnak/brudnak/master/Ive_become_my_own_Arch_Enemy_shorts.gif
+
+  <a href="https://www.youtube.com/watch?v=epH4QvLUXlY">
+    <img src="https://raw.githubusercontent.com/brudnak/brudnak/master/Ive_become_my_own_Arch_Enemy_shorts.gif" />
+  </a>
