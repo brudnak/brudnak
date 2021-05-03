@@ -1,4 +1,4 @@
-<img src="https://github.com/brudnak/brudnak/blob/master/brudnak-golang.png" alt="golang"/>
+<img src="https://github.com/brudnak/brudnak/blob/master/brudnak-golang.gif" alt="golang"/>
 
 [![linkedin badge](https://img.shields.io/badge/Andrew_Brudnak-30302f?style=flat&logo=linkedin)](https://www.linkedin.com/in/andrew-brudnak/)
 
