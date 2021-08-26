@@ -6,11 +6,9 @@
 
 ### 👋 Hi there
 
-- :sparkling_heart: Associate Software Engineer at T-Mobile
-- :fox_face: I'm on GitLab [gitlab.com/brudnak](https://gitlab.com/brudnak)
+- :whale: I'm passionate about the Go programming language
 - :email: Get in touch <a href="mailto:brudnak@protonmail.com">brudnak@protonmail.com</a>
 - :owl: I'm currently working on my (B.S.) in Software Development at **WGU**
-- :whale: I'm passionate about the Go programming language
 - :mortar_board: **Scottsdale Community College** alumni (A.A.S.) in Web Development
 - :foggy: **Lambda School** alumni (**Web 20** | **Labs 15** | **CS 22**)
 - :purple_heart: Favorite CSS color: [rebeccapurple](https://medium.com/@valgaze/the-hidden-purple-memorial-in-your-web-browser-7d84813bb416)
