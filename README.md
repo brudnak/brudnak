@@ -1,4 +1,4 @@
-<img src="https://github.com/brudnak/brudnak/blob/master/ferris.gif" alt="Rustlang Ferris GIF"/>
+<img src="https://github.com/brudnak/brudnak/blob/master/rust-night.gif" alt="Using desktop computer at night gif image"/>
 
 [![linkedin badge](https://img.shields.io/badge/Andrew_Brudnak-30302f?style=flat&logo=linkedin)](https://www.linkedin.com/in/andrewbrudnak/)
 
