@@ -1,4 +1,4 @@
-<a href="https://youtu.be/PWhcISYYpqM" target="_blank">
+<a href="https://youtu.be/PWhcISYYpqM" target="_blank" rel="noopener noreferrer">
     <img src="https://github.com/brudnak/brudnak/blob/master/BVG%20-%20leila%20(ft.%20sinxi)_the_bootleg_boy.gif" alt="bootleg boy gif"/>
 </a>
 
