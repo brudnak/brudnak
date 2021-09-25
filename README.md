@@ -1,5 +1,7 @@
 <img src="https://github.com/brudnak/brudnak/blob/master/rust-night.gif" alt="Using desktop computer at night gif image"/>
 
+<img src="https://github.com/brudnak/brudnak/blob/master/BVG%20-%20leila%20(ft.%20sinxi)_the_bootleg_boy.gif" alt="bootleg boy gif"/>
+
 [![linkedin badge](https://img.shields.io/badge/Andrew_Brudnak-30302f?style=flat&logo=linkedin)](https://www.linkedin.com/in/andrewbrudnak/)
 
 ---
