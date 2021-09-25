@@ -14,7 +14,7 @@
 <h2 align="center">Technology Stack <img src="https://github.com/ritik307/ritik307/blob/main/images/laptop.gif" width="50" /></h2>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/Golang-black?style=flat-square&logo=go" />
+    <img src="https://img.shields.io/badge/Golangk?style=flat-square&logo=go" />
     <img src="https://img.shields.io/badge/Rust-black?style=flat-square&logo=rust" />
     <img src="https://img.shields.io/badge/Python-black?style=flat-square&logo=python" />
     <img src="https://img.shields.io/badge/-Heroku-430098?style=flat-square&logo=heroku" />
