@@ -1,10 +1,12 @@
-<a href="https://youtu.be/PWhcISYYpqM">
-    <img src="https://github.com/brudnak/brudnak/blob/master/img/leila.gif" alt="the bootleg boy gif"/>
-</a>
-
+<p align="center">
+    <a href="https://youtu.be/PWhcISYYpqM">
+        <img src="https://github.com/brudnak/brudnak/blob/master/img/leila.gif" alt="the bootleg boy gif"/>
+    </a>
+</p>
 [![linkedin badge](https://img.shields.io/badge/Andrew_Brudnak-30302f?style=flat&logo=linkedin)](https://www.linkedin.com/in/andrewbrudnak/)
 
 
+<p>contributions in the last year</p>
 ![snake gif](https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg)
 
 ---
