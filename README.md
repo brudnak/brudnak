@@ -1,5 +1,5 @@
-<a href="https://youtu.be/PWhcISYYpqM" target="_blank" rel="noopener noreferrer">
-    <img src="https://github.com/brudnak/brudnak/blob/master/BVG%20-%20leila%20(ft.%20sinxi)_the_bootleg_boy.gif" alt="bootleg boy gif"/>
+<a href="https://youtu.be/PWhcISYYpqM">
+    <img src="https://github.com/brudnak/brudnak/blob/master/img/leila.gif" alt="the bootleg boy gif"/>
 </a>
 
 [![linkedin badge](https://img.shields.io/badge/Andrew_Brudnak-30302f?style=flat&logo=linkedin)](https://www.linkedin.com/in/andrewbrudnak/)
