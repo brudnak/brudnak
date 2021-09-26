@@ -96,6 +96,16 @@
       src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat"
     />
   </a>
+    <a href="mailto:brudnak@icloud.com">
+    <img
+      src="https://img.shields.io/badge/-iCloud-3693F3?logo=icloud&logoColor=white&style=flat"
+    />
+  </a>
+    <a href="https://meet.google.com/jpm-qgft-dja">
+    <img
+      src="https://img.shields.io/badge/-Google%20Meet-00897B?logo=google-meet&logoColor=white&style=flat"
+    />
+  </a>
 </p>
 
 <h2 align="center">
