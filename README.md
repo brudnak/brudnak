@@ -55,3 +55,7 @@
 <p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg" alt="snake" />
 </p>
+
+<p align = "center">
+ <img  src="https://github-readme-streak-stats.herokuapp.com/?user=brudnak&show_icons=true&locale=en&layout=compact&theme=radical&line_height=0" />
+</p> 
