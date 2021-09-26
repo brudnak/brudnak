@@ -17,14 +17,6 @@
   />
 </h2>
 
-<h2 align="center">
-  top coding tunes
-  <img
-    src="https://github.com/brudnak/brudnak/blob/master/img/youtube.gif"
-    width="75"
-  />
-</h2>
-
 <p align="center">
   <a href="https://youtu.be/PWhcISYYpqM">
     <img
