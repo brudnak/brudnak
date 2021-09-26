@@ -17,6 +17,14 @@
   />
 </h2>
 
+<h2 align="center">
+  top coding tunes
+  <img
+    src=""
+    width="75"
+  />
+</h2>
+
 <p align="center">
   <a href="https://youtu.be/PWhcISYYpqM">
     <img
@@ -40,6 +48,24 @@
     <img
       src="https://github.com/brudnak/brudnak/blob/master/img/simpson_drive.gif"
       alt="homer & ned driving gif"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/QabaLQHoHoo">
+    <img
+      src=""
+      alt="Valera - before i knew your name - the bootleg boy"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/jrTMMG0zJyI">
+    <img
+      src=""
+      alt="Lofi HipHop Mix - the bootleg boy"
     />
   </a>
 </p>
