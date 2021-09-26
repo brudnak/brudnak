@@ -3,13 +3,14 @@
    <img src="https://github.com/brudnak/brudnak/blob/master/img/leila.gif" alt="the bootleg boy gif" />
    </a>
 </p>
+
 <p align="center">
    <img src="https://badges.pufler.dev/visits/brudnak/brudnak" />
    <img src="https://badges.pufler.dev/years/brudnak" />
    <img src="https://badges.pufler.dev/repos/brudnak" />
    <img src="https://badges.pufler.dev/commits/monthly/brudnak" />
 </p>
-<h2 align="center">languages & tools<img src="https://github.com/ritik307/ritik307/blob/main/images/laptop.gif" width="75" /></h2>
+<h2 align="center">languages & technologies <img src="https://github.com/ritik307/ritik307/blob/main/images/laptop.gif" width="75" /></h2>
 <p align="center">
    <img src="https://img.shields.io/badge/-SUSE-0C322C?logo=suse&logoColor=white&style=flat" />
    <img src="https://img.shields.io/badge/-Golang-00ADD8?logo=go&logoColor=white&style=flat" />
@@ -25,7 +26,7 @@
    <img src="https://img.shields.io/badge/-Rancher-0075A8?logo=rancher&logoColor=white&style=flat" />
 </p>
 
-<h2 align="center">get in touch<img src="https://github.com/brudnak/brudnak/blob/master/img/phone.gif" width="75"></h2>
+<h2 align="center">get in touch <img src="https://github.com/brudnak/brudnak/blob/master/img/phone.gif" width="75"></h2>
 
 <p align="center">
    <a href="mailto:brudnak@protonmail.com"> 
@@ -37,7 +38,7 @@
 </p>
 
 <h2 align="center">
-  contributions in the last year<img src="https://github.com/brudnak/brudnak/blob/master/img/snake.gif" width="75">
+  contributions in the last year <img src="https://github.com/brudnak/brudnak/blob/master/img/snake.gif" width="75">
 </h2>
 <p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg" alt="snake" />
