@@ -30,6 +30,6 @@
    <img src="https://img.shields.io/badge/-ProtonMail-8B89CC?logo=protonmail&logoColor=white&style=flat&link=mailto:brudnak@protonmail.com" />
    </a>
    <a href="https://www.linkedin.com/in/andrewbrudnak/">
-   <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat&link=https://www.linkedin.com/in/andrewbrudnak/">
+   <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat&link=https://www.linkedin.com/in/andrewbrudnak/" />
    </a>
 </p>
