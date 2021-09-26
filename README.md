@@ -6,6 +6,14 @@
   />
 </h1>
 
+<h2 align="center">
+  my favorite css color: <a href="https://youtu.be/-oZ5Vsfy0n8">The "Hidden" Purple Memorial in Your Web Browser</a>  <img
+    src=""
+    width="75"
+  />
+</h2>
+
+
 <p align="center">
   <a href="https://youtu.be/PWhcISYYpqM">
     <img
