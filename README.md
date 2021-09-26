@@ -43,7 +43,7 @@
 </p>
 
 <h2 align="center">
-  contributions in the last year<img src="" width="50">
+  contributions in the last year<img src="https://github.com/brudnak/brudnak/blob/master/img/snake.gif" width="50">
 </h2>
 <p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg" alt="snake" />
