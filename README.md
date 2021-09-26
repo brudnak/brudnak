@@ -24,10 +24,12 @@
    <img src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat" />
    <img src="https://img.shields.io/badge/-Rancher-0075A8?logo=rancher&logoColor=white&style=flat" />
 </p>
-
 <h2 align="center">Get in touch <img src="https://github.com/brudnak/brudnak/blob/master/img/phone.gif" width="50"></h2>
-
 <p align="center">
-   <img src="https://img.shields.io/badge/-ProtonMail-8B89CC?logo=protonmail&logoColor=white&style=flat&link=mailto:brudnak@protonmail.com" />
-   <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat&link=https://www.linkedin.com/in/andrewbrudnak/" />
+   <a href="mailto:brudnak@protonmail.com"> 
+   <img src="https://img.shields.io/badge/-ProtonMail-8B89CC?logo=protonmail&logoColor=white&style=flat" />
+   </a>
+   <a href="https://www.linkedin.com/in/andrewbrudnak/">
+   <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat" />
+   </a>
 </p>
