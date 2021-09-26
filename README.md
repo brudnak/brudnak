@@ -1,6 +1,18 @@
 <p align="center">
    <a href="https://youtu.be/PWhcISYYpqM">
-   <img src="https://github.com/brudnak/brudnak/blob/master/img/leila.gif" alt="the bootleg boy gif" />
+   <img src="https://github.com/brudnak/brudnak/blob/master/img/leila.gif" alt="the bootleg boy leila gif" />
+   </a>
+</p>
+
+<p align="center">
+   <a href="https://youtu.be/XKDGZ-VWLMg">
+   <img src="https://github.com/brudnak/brudnak/blob/master/img/raining_tokyo.gif" alt="the bootleg boy raining tokyo gif" />
+   </a>
+</p>
+
+<p align="center">
+   <a href="https://youtu.be/-oZ5Vsfy0n8">
+   <img src="https://github.com/brudnak/brudnak/blob/master/img/simpson_drive.gif" alt="homer & ned driving gif" />
    </a>
 </p>
 
