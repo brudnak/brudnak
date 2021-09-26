@@ -8,7 +8,7 @@
 
 <h2 align="center">
   my favorite css color:
-  <a href="https://youtu.be/-oZ5Vsfy0n8"
+  <a href="https://medium.com/@valgaze/the-hidden-purple-memorial-in-your-web-browser-7d84813bb416"
     >The "Hidden" Purple Memorial in Your Web Browser</a
   >
   <img
