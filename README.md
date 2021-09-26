@@ -1,3 +1,9 @@
+       <style>
+            a {
+                text-decoration:none;
+                color:green;
+            }
+        </style>
 <p align="center">
    <a href="https://youtu.be/PWhcISYYpqM">
    <img src="https://github.com/brudnak/brudnak/blob/master/img/leila.gif" alt="the bootleg boy gif" />
@@ -24,7 +30,9 @@
    <img src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat" />
    <img src="https://img.shields.io/badge/-Rancher-0075A8?logo=rancher&logoColor=white&style=flat" />
 </p>
+
 <h2 align="center">Get in touch <img src="https://github.com/brudnak/brudnak/blob/master/img/phone.gif" width="50"></h2>
+
 <p align="center">
    <a href="mailto:brudnak@protonmail.com"> 
    <img src="https://img.shields.io/badge/-ProtonMail-8B89CC?logo=protonmail&logoColor=white&style=flat" />
@@ -32,4 +40,11 @@
    <a href="https://www.linkedin.com/in/andrewbrudnak/">
    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat" />
    </a>
+</p>
+
+<h2 align="center">
+  contributions in the last year<img src="" width="50">
+</h2>
+<p align="center">
+  <img src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg" alt="snake" />
 </p>
