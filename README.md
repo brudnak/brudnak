@@ -1,3 +1,8 @@
+<h1 align="center">
+  Welcome to Andrew Brudnak's profile!
+  <img src="" width="75">
+</h1>
+
 <p align="center">
   <a href="https://youtu.be/PWhcISYYpqM">
     <img
