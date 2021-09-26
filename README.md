@@ -1,6 +1,9 @@
 <h1 align="center">
   Welcome to Andrew Brudnak's profile!
-  <img src="" width="75">
+  <img
+    src="https://github.com/brudnak/brudnak/blob/master/img/source.gif"
+    width="75"
+  />
 </h1>
 
 <p align="center">
@@ -101,12 +104,12 @@
       src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat"
     />
   </a>
-    <a href="mailto:brudnak@icloud.com">
+  <a href="mailto:brudnak@icloud.com">
     <img
       src="https://img.shields.io/badge/-iCloud-3693F3?logo=icloud&logoColor=white&style=flat"
     />
   </a>
-    <a href="https://meet.google.com/jpm-qgft-dja">
+  <a href="https://meet.google.com/jpm-qgft-dja">
     <img
       src="https://img.shields.io/badge/-Google%20Meet-00897B?logo=google-meet&logoColor=white&style=flat"
     />
