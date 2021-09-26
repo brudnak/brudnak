@@ -1,9 +1,3 @@
-       <style>
-            a {
-                text-decoration:none;
-                color:green;
-            }
-        </style>
 <p align="center">
    <a href="https://youtu.be/PWhcISYYpqM">
    <img src="https://github.com/brudnak/brudnak/blob/master/img/leila.gif" alt="the bootleg boy gif" />
