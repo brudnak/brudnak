@@ -20,7 +20,7 @@
 <h2 align="center">
   top coding tunes
   <img
-    src=""
+    src="https://github.com/brudnak/brudnak/blob/master/img/youtube.gif"
     width="75"
   />
 </h2>
@@ -55,7 +55,7 @@
 <p align="center">
   <a href="https://youtu.be/QabaLQHoHoo">
     <img
-      src=""
+      src="https://github.com/brudnak/brudnak/blob/master/img/valera.gif"
       alt="Valera - before i knew your name - the bootleg boy"
     />
   </a>
@@ -64,7 +64,7 @@
 <p align="center">
   <a href="https://youtu.be/jrTMMG0zJyI">
     <img
-      src=""
+      src="https://github.com/brudnak/brudnak/blob/master/img/samurai_lofi.gif"
       alt="Lofi HipHop Mix - the bootleg boy"
     />
   </a>
