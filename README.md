@@ -28,11 +28,6 @@
 <h2 align="center">Get in touch <img src="https://github.com/brudnak/brudnak/blob/master/img/phone.gif" width="50"></h2>
 
 <p align="center">
-
-
    <img src="https://img.shields.io/badge/-ProtonMail-8B89CC?logo=protonmail&logoColor=white&style=flat&link=mailto:brudnak@protonmail.com" />
- 
-
-   <a href="https://www.linkedin.com/in/andrewbrudnak/">  <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat&link=https://www.linkedin.com/in/andrewbrudnak/" />
-
+   <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat&link=https://www.linkedin.com/in/andrewbrudnak/" />
 </p>
