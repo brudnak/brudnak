@@ -1,5 +1,5 @@
 <h1 align="center">
-  Welcome to Andrew Brudnak's profile!
+  welcome to my profile!
   <img
     src="https://github.com/brudnak/brudnak/blob/master/img/source.gif"
     width="75"
@@ -7,12 +7,15 @@
 </h1>
 
 <h2 align="center">
-  my favorite css color: <a href="https://youtu.be/-oZ5Vsfy0n8">The "Hidden" Purple Memorial in Your Web Browser</a>  <img
-    src=""
+  my favorite css color:
+  <a href="https://youtu.be/-oZ5Vsfy0n8"
+    >The "Hidden" Purple Memorial in Your Web Browser</a
+  >
+  <img
+    src="https://github.com/brudnak/brudnak/blob/master/img/purple_heart.gif"
     width="75"
   />
 </h2>
-
 
 <p align="center">
   <a href="https://youtu.be/PWhcISYYpqM">
