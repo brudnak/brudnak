@@ -45,24 +45,6 @@
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/QabaLQHoHoo">
-    <img
-      src="https://github.com/brudnak/brudnak/blob/master/img/valera.gif"
-      alt="Valera - before i knew your name - the bootleg boy"
-    />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://youtu.be/jrTMMG0zJyI">
-    <img
-      src="https://github.com/brudnak/brudnak/blob/master/img/samurai_lofi.gif"
-      alt="Lofi HipHop Mix - the bootleg boy"
-    />
-  </a>
-</p>
-
-<p align="center">
   <img src="https://badges.pufler.dev/visits/brudnak/brudnak" />
   <img src="https://badges.pufler.dev/years/brudnak" />
   <img src="https://badges.pufler.dev/repos/brudnak" />
@@ -77,16 +59,10 @@
 </h2>
 <p align="center">
   <img
-    src="https://img.shields.io/badge/-SUSE-0C322C?logo=suse&logoColor=white&style=flat"
-  />
-  <img
     src="https://img.shields.io/badge/-Golang-00ADD8?logo=go&logoColor=white&style=flat"
   />
   <img
     src="https://img.shields.io/badge/-Rust-000000?logo=rust&logoColor=white&style=flat"
-  />
-  <img
-    src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat"
   />
   <img
     src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=white&style=flat"
