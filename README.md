@@ -34,19 +34,6 @@
 </p>
 
 <p align="center">
-  <img src="https://badges.pufler.dev/visits/brudnak/brudnak" />
-  <img src="https://badges.pufler.dev/years/brudnak" />
-  <img src="https://badges.pufler.dev/repos/brudnak" />
-  <img src="https://badges.pufler.dev/commits/monthly/brudnak" />
-</p>
-<h2 align="center">
-  languages & technologies
-  <img
-    src="https://github.com/ritik307/ritik307/blob/main/images/laptop.gif"
-    width="75"
-  />
-</h2>
-<p align="center">
   <img
     src="https://img.shields.io/badge/-Golang-00ADD8?logo=go&logoColor=white&style=flat"
   />
