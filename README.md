@@ -6,17 +6,6 @@
   />
 </h1>
 
-<h2 align="center">
-  my favorite css color:
-  <a href="https://medium.com/@valgaze/the-hidden-purple-memorial-in-your-web-browser-7d84813bb416"
-    >the "hidden" purple memorial in your web browser</a
-  >
-  <img
-    src="https://github.com/brudnak/brudnak/blob/master/img/purple_heart.gif"
-    width="75"
-  />
-</h2>
-
 <p align="center">
   <a href="https://youtu.be/PWhcISYYpqM">
     <img
