@@ -106,7 +106,7 @@
 </h2>
 <p align="center">
   <img
-    src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg"
+    src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.gif"
     alt="snake"
   />
 </p>
