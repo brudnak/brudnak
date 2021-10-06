@@ -1,5 +1,5 @@
 <h1 align="center">
-  welcome to my profile!
+  Welcome to My Profile!
   <img
     src="https://github.com/brudnak/brudnak/blob/master/img/source.gif"
     width="75"
@@ -67,7 +67,7 @@
 </p>
 
 <h2 align="center">
-  get in touch
+  Get in Touch 
   <img
     src="https://github.com/brudnak/brudnak/blob/master/img/phone.gif"
     width="75"
@@ -98,7 +98,7 @@
 </p>
 
 <h2 align="center">
-  contributions in the last year
+  Contributions in the Last Year
   <img
     src="https://github.com/brudnak/brudnak/blob/master/img/snake.gif"
     width="75"
