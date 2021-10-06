@@ -113,6 +113,6 @@
 
 <p align="center">
   <img
-    src="http://github-readme-streak-stats.herokuapp.com?user=brudnak&theme=buefy-dark"
+    src="http://github-readme-streak-stats.herokuapp.com?user=brudnak"
   />
 </p>
