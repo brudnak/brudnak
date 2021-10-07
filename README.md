@@ -7,15 +7,6 @@
 </h1>
 
 <p align="center">
-  <a href="https://youtu.be/PWhcISYYpqM">
-    <img
-      src="https://github.com/brudnak/brudnak/blob/master/img/leila.gif"
-      alt="the bootleg boy leila gif"
-    />
-  </a>
-</p>
-
-<p align="center">
   <a href="https://youtu.be/XKDGZ-VWLMg">
     <img
       src="https://github.com/brudnak/brudnak/blob/master/img/raining_tokyo.gif"
