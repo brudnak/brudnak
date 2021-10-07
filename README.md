@@ -97,13 +97,13 @@
 </h2>
 <p align="center">
   <img
-    src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.gif"
+    src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg"
     alt="snake"
   />
 </p>
 
 <p align="center">
   <img
-    src="http://github-readme-streak-stats.herokuapp.com?user=brudnak"
+    src="http://github-readme-streak-stats.herokuapp.com?user=brudnak&theme=github-dark"
   />
 </p>
