@@ -38,7 +38,7 @@
     src="https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=white&style=flat"
   />
     <img
-    src="https://img.shields.io/badge/-Vue-4FC08D?logo=vue&logoColor=white&style=flat"
+    src="https://img.shields.io/badge/-Vue.js-4FC08D?logo=vue.js&logoColor=white&style=flat"
   />
   <img
     src="https://img.shields.io/badge/-Redux-764ABC?logo=redux&logoColor=white&style=flat"
