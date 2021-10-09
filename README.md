@@ -10,7 +10,7 @@
   <a href="https://youtu.be/XKDGZ-VWLMg">
     <img
       src="https://github.com/brudnak/brudnak/blob/main/img/raining_tokyo.gif"
-      alt="the bootleg boy raining tokyo gif"
+      alt="RAINING IN ＴＯＫＹＯ (Lofi HipHop)"
     />
   </a>
 </p>
@@ -19,7 +19,7 @@
   <a href="https://youtu.be/-oZ5Vsfy0n8">
     <img
       src="https://github.com/brudnak/brudnak/blob/main/img/simpson_drive.gif"
-      alt="homer & ned driving gif"
+      alt="Chill Drive - Lofi hip hop mix - Stress Relief, Relaxing Music"
     />
   </a>
 </p>
