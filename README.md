@@ -1,7 +1,7 @@
 <h1 align="center">
   Welcome to My Profile!
   <img
-    src="https://github.com/brudnak/brudnak/blob/master/img/source.gif"
+    src="https://github.com/brudnak/brudnak/blob/main/img/git.gif"
     width="75"
   />
 </h1>
@@ -18,7 +18,7 @@
 <p align="center">
   <a href="https://youtu.be/-oZ5Vsfy0n8">
     <img
-      src="https://github.com/brudnak/brudnak/blob/main/img/simpson_drive.gif"
+      src="https://github.com/brudnak/brudnak/blob/main/img/chill_drive.gif"
       alt="Chill Drive - Lofi hip hop mix - Stress Relief, Relaxing Music"
     />
   </a>
@@ -60,7 +60,7 @@
 <h2 align="center">
   Get in Touch 
   <img
-    src="https://github.com/brudnak/brudnak/blob/master/img/phone.gif"
+    src="https://github.com/brudnak/brudnak/blob/main/img/phone.gif"
     width="75"
   />
 </h2>
@@ -91,7 +91,7 @@
 <h2 align="center">
   Contributions in the Last Year
   <img
-    src="https://github.com/brudnak/brudnak/blob/master/img/snake.gif"
+    src="https://github.com/brudnak/brudnak/blob/main/img/snake.gif"
     width="75"
   />
 </h2>
