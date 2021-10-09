@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://youtu.be/XKDGZ-VWLMg">
     <img
-      src="https://github.com/brudnak/brudnak/blob/main/img/raining_tokyo.gif"
+      src="https://github.com/brudnak/brudnak/blob/main/img/raining_in_tokyo.gif"
       alt="RAINING IN ＴＯＫＹＯ (Lofi HipHop)"
     />
   </a>
