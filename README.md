@@ -7,15 +7,6 @@
 </h1>
 
 <p align="center">
-  <a href="https://youtu.be/PWhcISYYpqM">
-    <img
-      src="https://github.com/brudnak/brudnak/blob/master/img/leila.gif"
-      alt="the bootleg boy leila gif"
-    />
-  </a>
-</p>
-
-<p align="center">
   <a href="https://youtu.be/XKDGZ-VWLMg">
     <img
       src="https://github.com/brudnak/brudnak/blob/master/img/raining_tokyo.gif"
@@ -106,13 +97,13 @@
 </h2>
 <p align="center">
   <img
-    src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.gif"
+    src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg"
     alt="snake"
   />
 </p>
 
 <p align="center">
   <img
-    src="http://github-readme-streak-stats.herokuapp.com?user=brudnak"
+    src="http://github-readme-streak-stats.herokuapp.com?user=brudnak&theme=github-dark"
   />
 </p>
