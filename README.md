@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://youtu.be/XKDGZ-VWLMg">
     <img
-      src="https://github.com/brudnak/brudnak/blob/master/img/raining_tokyo.gif"
+      src="https://github.com/brudnak/brudnak/blob/main/img/raining_tokyo.gif"
       alt="the bootleg boy raining tokyo gif"
     />
   </a>
@@ -18,7 +18,7 @@
 <p align="center">
   <a href="https://youtu.be/-oZ5Vsfy0n8">
     <img
-      src="https://github.com/brudnak/brudnak/blob/master/img/simpson_drive.gif"
+      src="https://github.com/brudnak/brudnak/blob/main/img/simpson_drive.gif"
       alt="homer & ned driving gif"
     />
   </a>
