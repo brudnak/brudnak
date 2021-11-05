@@ -57,13 +57,13 @@
   />
 </p>
 
-<h2 align="center">
+<!-- <h2 align="center">
   Get in Touch 
   <img
     src="https://github.com/brudnak/brudnak/blob/main/img/phone.gif"
     width="75"
   />
-</h2>
+</h2> -->
 
 <p align="center">
   <a href="mailto:brudnak@protonmail.com">
@@ -88,13 +88,13 @@
   </a>
 </p>
 
-<h2 align="center">
+<!-- <h2 align="center">
   Contributions in the Last Year
   <img
     src="https://github.com/brudnak/brudnak/blob/main/img/snake.gif"
     width="75"
   />
-</h2>
+</h2> -->
 <p align="center">
   <img
     src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg"
