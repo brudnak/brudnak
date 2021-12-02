@@ -9,17 +9,26 @@
 <p align="center">
   <a href="https://youtu.be/XKDGZ-VWLMg">
     <img
-      src="https://github.com/brudnak/brudnak/blob/main/img/raining_in_tokyo.gif"
+      src="https://github.com/brudnak/brudnak/blob/main/img/RAINING_IN__Lofi_HipHop.gif"
       alt="RAINING IN ＴＯＫＹＯ (Lofi HipHop)"
     />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/-oZ5Vsfy0n8">
+  <a href="https://youtu.be/PWhcISYYpqM">
     <img
-      src="https://github.com/brudnak/brudnak/blob/main/img/chill_drive.gif"
-      alt="Chill Drive - Lofi hip hop mix - Stress Relief, Relaxing Music"
+      src="https://github.com/brudnak/brudnak/blob/main/img/BVG__leila_ft_sinxi.gif"
+      alt="BVG - leila (ft. sinxi)"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/AGQ7QzACpdw">
+    <img
+      src="https://github.com/brudnak/brudnak/blob/main/img/its_3am_and_im_still_missing_you.gif"
+      alt="its 3am and i'm still missing you"
     />
   </a>
 </p>
