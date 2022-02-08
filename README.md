@@ -15,14 +15,14 @@
   </a>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://youtu.be/PWhcISYYpqM">
     <img
       src="https://github.com/brudnak/brudnak/blob/main/img/BVG__leila_ft_sinxi.gif"
       alt="BVG - leila (ft. sinxi)"
     />
   </a>
-</p>
+</p> -->
 
 <p align="center">
   <a href="https://youtu.be/AGQ7QzACpdw">
