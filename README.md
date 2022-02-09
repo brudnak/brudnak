@@ -15,20 +15,11 @@
   </a>
 </p>
 
-<!-- <p align="center">
-  <a href="https://youtu.be/PWhcISYYpqM">
-    <img
-      src="https://github.com/brudnak/brudnak/blob/main/img/BVG__leila_ft_sinxi.gif"
-      alt="BVG - leila (ft. sinxi)"
-    />
-  </a>
-</p> -->
-
 <p align="center">
-  <a href="https://youtu.be/AGQ7QzACpdw">
+  <a href="https://youtu.be/jrTMMG0zJyI">
     <img
       src="https://github.com/brudnak/brudnak/blob/main/img/its_3am_and_im_still_missing_you.gif"
-      alt="its 3am and i'm still missing you"
+      alt="Samurai ☯ Japanese Lofi HipHop Mix"
     />
   </a>
 </p>
