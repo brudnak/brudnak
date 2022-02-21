@@ -24,6 +24,7 @@
   </a>
 </p>
 
+
 <p align="center">
   <img
     src="https://img.shields.io/badge/-Golang-00ADD8?logo=go&logoColor=white&style=flat"
@@ -73,6 +74,10 @@
       src="https://img.shields.io/badge/-iCloud-3693F3?logo=icloud&logoColor=white&style=flat"
     />
   </a>
+  <a href="https://gitlab.com/brudnak">
+    <img
+      src="https://img.shields.io/badge/-Gitlab-FCA121?logo=linkedin&logoColor=white&style=flat"
+    />
   </a>
 </p>
 
