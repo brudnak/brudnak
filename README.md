@@ -64,7 +64,7 @@
       src="https://img.shields.io/badge/-ProtonMail-8B89CC?logo=protonmail&logoColor=white&style=flat"
     />
   </a>
-  <a href="https://www.linkedin.com/in/andrew-brudnak/">
+  <a href="https://www.linkedin.com/in/andrew-brudnak">
     <img
       src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat"
     />
@@ -76,7 +76,7 @@
   </a>
   <a href="https://gitlab.com/brudnak">
     <img
-      src="https://img.shields.io/badge/-Gitlab-FCA121?logo=linkedin&logoColor=white&style=flat"
+      src="https://img.shields.io/badge/-GitLab-FCA121?logo=gitlab&logoColor=white&style=flat"
     />
   </a>
 </p>
