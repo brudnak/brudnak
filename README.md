@@ -79,6 +79,11 @@
       src="https://img.shields.io/badge/-GitLab-FCA121?logo=gitlab&logoColor=white&style=flat"
     />
   </a>
+  <a href="https://hub.docker.com/u/brudnak">
+    <img
+      src="https://img.shields.io/badge/-Docker-Hub-2496ED?logo=docker&logoColor=white&style=flat"
+    />
+  </a>
 </p>
 
 <p align="center">
