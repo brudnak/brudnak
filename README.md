@@ -32,6 +32,15 @@
     src="https://img.shields.io/badge/-Rust-000000?logo=rust&logoColor=white&style=flat"
   />
   <img
+    src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat"
+  />
+  <img
+    src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat"
+  />
+  <img
+    src="https://img.shields.io/badge/-Rancher-0075A8?logo=rancher&logoColor=white&style=flat"
+  />
+  <img
     src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=white&style=flat"
   />
   <img
@@ -46,24 +55,7 @@
   <img
     src="https://img.shields.io/badge/-Sass-CC6699?logo=sass&logoColor=white&style=flat"
   />
-  <img
-    src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat"
-  />
-  <img
-    src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat"
-  />
-  <img
-    src="https://img.shields.io/badge/-Rancher-0075A8?logo=rancher&logoColor=white&style=flat"
-  />
 </p>
-
-<!-- <h2 align="center">
-  Get in Touch 
-  <img
-    src="https://github.com/brudnak/brudnak/blob/main/img/phone.gif"
-    width="75"
-  />
-</h2> -->
 
 <p align="center">
   <a href="mailto:brudnak@protonmail.com">
@@ -81,20 +73,9 @@
       src="https://img.shields.io/badge/-iCloud-3693F3?logo=icloud&logoColor=white&style=flat"
     />
   </a>
-  <a href="https://meet.google.com/jpm-qgft-dja">
-    <img
-      src="https://img.shields.io/badge/-Google%20Meet-00897B?logo=google-meet&logoColor=white&style=flat"
-    />
   </a>
 </p>
 
-<!-- <h2 align="center">
-  Contributions in the Last Year
-  <img
-    src="https://github.com/brudnak/brudnak/blob/main/img/snake.gif"
-    width="75"
-  />
-</h2> -->
 <p align="center">
   <img
     src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg"
