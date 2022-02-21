@@ -81,7 +81,7 @@
   </a>
   <a href="https://hub.docker.com/u/brudnak">
     <img
-      src="https://img.shields.io/badge/-Docker-Hub-2496ED?logo=docker&logoColor=white&style=flat"
+      src="https://img.shields.io/badge/-DockerHub-2496ED?logo=docker&logoColor=white&style=flat"
     />
   </a>
 </p>
