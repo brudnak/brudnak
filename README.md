@@ -6,8 +6,6 @@
   />
 </h1>
 
-<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="29e3f6a2-adf2-4831-aeab-b00f0124bc3f" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-
 <p align="center">
   <a href="https://youtu.be/XKDGZ-VWLMg">
     <img
