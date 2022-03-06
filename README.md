@@ -25,10 +25,10 @@
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/XKDGZ-VWLMg">
+  <a href="https://youtu.be/jrTMMG0zJyI">
     <img
-      src="https://github.com/brudnak/brudnak/blob/main/img/RAINING_IN__Lofi_HipHop.gif"
-      alt="RAINING IN ＴＯＫＹＯ (Lofi HipHop)"
+      src="https://github.com/brudnak/brudnak/blob/main/img/samurai_japanese_lofi.webp"
+      alt="Samurai ☯ Japanese Lofi HipHop Mix"
     />
   </a>
 </p>
