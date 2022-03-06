@@ -27,7 +27,7 @@
 <p align="center">
   <a href="https://youtu.be/jrTMMG0zJyI">
     <img
-      src="https://github.com/brudnak/brudnak/blob/main/img/samurai_japanese_lofi.webp"
+      src="https://github.com/brudnak/brudnak/blob/main/img/samurai_lofi.webp"
       alt="Samurai ☯ Japanese Lofi HipHop Mix"
     />
   </a>
