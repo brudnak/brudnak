@@ -7,6 +7,24 @@
 </h1>
 
 <p align="center">
+  <a href="https://youtu.be/M1KwzaKVFNA">
+    <img
+      src="https://github.com/brudnak/brudnak/blob/main/img/chill_drive.webp"
+      alt="Chill Drive - Lofi hip hop mix ~ Stress Relief, Relaxing Music"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/XKDGZ-VWLMg">
+    <img
+      src="https://github.com/brudnak/brudnak/blob/main/img/raining_in_tokyo.webp"
+      alt="RAINING IN ＴＯＫＹＯ (Lofi HipHop)"
+    />
+  </a>
+</p>
+
+<p align="center">
   <a href="https://youtu.be/XKDGZ-VWLMg">
     <img
       src="https://github.com/brudnak/brudnak/blob/main/img/RAINING_IN__Lofi_HipHop.gif"
@@ -14,16 +32,6 @@
     />
   </a>
 </p>
-
-<p align="center">
-  <a href="https://youtu.be/jrTMMG0zJyI">
-    <img
-      src="https://github.com/brudnak/brudnak/blob/main/img/chill_drive.webp"
-      alt="Samurai ☯ Japanese Lofi HipHop Mix"
-    />
-  </a>
-</p>
-
 
 <p align="center">
   <img
