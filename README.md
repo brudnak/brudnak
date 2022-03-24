@@ -33,6 +33,8 @@
   </a>
 </p>
 
+<!-- Where to find these icons: https://simpleicons.org -->
+
 <p align="center">
   <img
     src="https://img.shields.io/badge/-Golang-00ADD8?logo=go&logoColor=white&style=flat"
@@ -48,6 +50,12 @@
   />
   <img
     src="https://img.shields.io/badge/-Rancher-0075A8?logo=rancher&logoColor=white&style=flat"
+  />
+  <img
+    src="https://img.shields.io/badge/-Terraform-7B42BC?logo=rancher&logoColor=white&style=flat"
+  />
+  <img
+    src="https://img.shields.io/badge/-Ansible-EE0000?logo=rancher&logoColor=white&style=flat"
   />
   <img
     src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=white&style=flat"
