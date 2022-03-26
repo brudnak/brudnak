@@ -67,10 +67,7 @@
     src="https://img.shields.io/badge/-Ansible-EE0000?logo=ansible&logoColor=white&style=flat"
   />
   <img
-    src="https://img.shields.io/badge/-Ansible-EE0000?logo=ansible&logoColor=white&style=flat"
-  />
-  <img
-    src="https://img.shields.io/badge/-Amazon_AWS-232F3E?logo=aws&logoColor=white&style=flat"
+    src="https://img.shields.io/badge/-AWS-232F3E?logo=aws&logoColor=white&style=flat"
   />
   <img
     src="https://img.shields.io/badge/-Linode-00A95C?logo=linode&logoColor=white&style=flat"
