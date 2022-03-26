@@ -105,6 +105,18 @@
   <img
     src="https://img.shields.io/badge/-GitHub_Sponsors-EA4AAA?logo=githubsponsors&logoColor=white&style=flat"
   />
+  <img
+    src="https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat"
+  />
+  <img
+    src="https://img.shields.io/badge/-SQLite-003B57?logo=sqlite&logoColor=white&style=flat"
+  />
+  <img
+    src="https://img.shields.io/badge/-Postman-FF6C37?logo=postman&logoColor=white&style=flat"
+  />
+  <img
+    src="https://img.shields.io/badge/-Hyper-000000?logo=hyper&logoColor=white&style=flat"
+  />
 </p>
 
 <p align="center">
