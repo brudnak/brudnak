@@ -52,6 +52,9 @@
     src="https://img.shields.io/badge/-K3s-FFC61C?logo=k3s&logoColor=white&style=flat"
   />
   <img
+    src="https://img.shields.io/badge/-Helm-0F1689?logo=helm&logoColor=white&style=flat"
+  />
+  <img
     src="https://img.shields.io/badge/-Rancher-0075A8?logo=rancher&logoColor=white&style=flat"
   />
   <img
