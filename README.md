@@ -49,13 +49,31 @@
     src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat"
   />
   <img
+    src="https://img.shields.io/badge/-K3s-FFC61C?logo=k3s&logoColor=white&style=flat"
+  />
+  <img
     src="https://img.shields.io/badge/-Rancher-0075A8?logo=rancher&logoColor=white&style=flat"
   />
   <img
     src="https://img.shields.io/badge/-Terraform-7B42BC?logo=terraform&logoColor=white&style=flat"
   />
   <img
+    src="https://img.shields.io/badge/-Vault-000000?logo=vault&logoColor=white&style=flat"
+  />
+  <img
+    src="https://img.shields.io/badge/-Packer-02A8EF?logo=packer&logoColor=white&style=flat"
+  />
+  <img
     src="https://img.shields.io/badge/-Ansible-EE0000?logo=ansible&logoColor=white&style=flat"
+  />
+  <img
+    src="https://img.shields.io/badge/-Ansible-EE0000?logo=ansible&logoColor=white&style=flat"
+  />
+  <img
+    src="https://img.shields.io/badge/-Amazon_AWS-232F3E?logo=aws&logoColor=white&style=flat"
+  />
+  <img
+    src="https://img.shields.io/badge/-Linode-00A95C?logo=linode&logoColor=white&style=flat"
   />
   <img
     src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=white&style=flat"
