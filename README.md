@@ -29,7 +29,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/-Golang-00ADD8?logo=go&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-Rust-000000?logo=rust&logoColor=white&style=flat" />
-  <img src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-K3s-FFC61C?logo=k3s&logoColor=white&style=flat" />
