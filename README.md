@@ -82,3 +82,10 @@
 <p align="center">
   <img src="http://github-readme-streak-stats.herokuapp.com?user=brudnak&theme=github-dark" />
 </p>
+
+<p align="center">
+  <a href="https://youtu.be/algjtQqhDIQ">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/where_it_all_started.webp"
+      alt="where it all started" />
+  </a>
+</p>
