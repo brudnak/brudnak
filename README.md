@@ -88,10 +88,3 @@
       alt="where it all started" />
   </a>
 </p>
-
-<p align="center">
-  <a href="https://youtu.be/Xec3S-I5TcE">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/below_depths.webp"
-      alt="Below The Depths" />
-  </a>
-</p>
