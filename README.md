@@ -1,4 +1,8 @@
-<h1 align="center">
+<p align="center">
+  <img src="https://github.com/brudnak/brudnak/blob/main/img/andrewbrudnak.png" alt="andrew brudnak logo" />
+</p>
+
+<!-- <h1 align="center">
   Welcome to My Profile!
   <img src="https://github.com/brudnak/brudnak/blob/main/img/git.gif" width="75" />
 </h1>
@@ -22,11 +26,11 @@
     <img src="https://github.com/brudnak/brudnak/blob/main/img/samurai_lofi.webp"
       alt="Samurai ☯ Japanese Lofi HipHop Mix" />
   </a>
-</p>
+</p> -->
 
 <!-- Where to find these icons: https://simpleicons.org -->
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://img.shields.io/badge/-Golang-00ADD8?logo=go&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-Rust-000000?logo=rust&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat" />
@@ -54,7 +58,7 @@
   <img src="https://img.shields.io/badge/-SQLite-003B57?logo=sqlite&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-Postman-FF6C37?logo=postman&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-Hyper-000000?logo=hyper&logoColor=white&style=flat" />
-</p>
+</p> -->
 
 <p align="center">
   <a href="mailto:brudnak@protonmail.com">
@@ -74,17 +78,17 @@
   </a>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg" alt="snake" />
-</p>
+</p> -->
 
 <p align="center">
   <img src="http://github-readme-streak-stats.herokuapp.com?user=brudnak&theme=github-dark" />
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://youtu.be/algjtQqhDIQ">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/where_it_all_started.webp"
       alt="where it all started" />
   </a>
-</p>
+</p> -->
