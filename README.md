@@ -4,9 +4,9 @@
 </h1>
 
 <p align="center">
-  <a href="https://youtu.be/M1KwzaKVFNA">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/chill_drive.webp"
-      alt="Chill Drive - Lofi hip hop mix ~ Stress Relief, Relaxing Music" />
+  <a href="https://youtu.be/iicfmXFALM8">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/chill-drive.webp"
+      alt="Chill Drive - Aesthetic Music ~ Lofi hip hop mix" />
   </a>
 </p>
 
@@ -28,7 +28,6 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white&style=flat" />
-  <img src="https://img.shields.io/badge/-Rust-000000?logo=rust&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-Rancher-0075A8?logo=rancher&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-Terraform-7B42BC?logo=terraform&logoColor=white&style=flat" />
@@ -52,14 +51,4 @@
 
 <p align="center">
   <img src="http://github-readme-streak-stats.herokuapp.com?user=brudnak&theme=github-dark" />
-</p>
-
-<p align="center">
-  <a href="https://youtu.be/algjtQqhDIQ">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/where_it_all_started.webp" alt="where it all started" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://github.com/brudnak/brudnak/blob/main/andrewbrudnak.png" />
 </p>
