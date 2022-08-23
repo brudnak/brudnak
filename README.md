@@ -48,7 +48,3 @@
     <img src="https://img.shields.io/badge/-Docker_Hub-2496ED?logo=docker&logoColor=white&style=flat" />
   </a>
 </p>
-
-<p align="center">
-  <img src="http://github-readme-streak-stats.herokuapp.com?user=brudnak&theme=github-dark" />
-</p>
