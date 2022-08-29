@@ -1,4 +1,4 @@
-<h1 align="center">
+<!-- <h1 align="center">
   Welcome to My Profile!
   <img src="https://github.com/brudnak/brudnak/blob/main/img/git.gif" width="75" />
 </h1>
@@ -47,4 +47,4 @@
   <a href="https://hub.docker.com/u/brudnak">
     <img src="https://img.shields.io/badge/-Docker_Hub-2496ED?logo=docker&logoColor=white&style=flat" />
   </a>
-</p>
+</p> -->
