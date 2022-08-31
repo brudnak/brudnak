@@ -1,4 +1,6 @@
-[![Spotify](https://novatorem-bay-eight.vercel.app/api/spotify)](https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe)
+<p align="center">
+    [![Spotify](https://novatorem-bay-eight.vercel.app/api/spotify)](https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe)
+</p>
 
 <h1 align="center">
   Welcome to My Profile!
