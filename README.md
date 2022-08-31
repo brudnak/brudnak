@@ -1,13 +1,12 @@
-
 <p align="center">
   <a href="https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe">
-    <img src="https://novatorem-bay-eight.vercel.app/api/spotify"/>
+    <img src="https://novatorem-bay-eight.vercel.app/api/spotify.svg#gh-dark-mode-only"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe">
-    <img src="https://novatorem-light-238epjfey-brudnak.vercel.app/api/spotify"/>
+    <img src="https://novatorem-light-238epjfey-brudnak.vercel.app/api/spotify.svg#gh-light-mode-only"/>
   </a>
 </p>
 
