@@ -1,9 +1,7 @@
-<p align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://novatorem-bay-eight.vercel.app/api/spotify">
-  <img alt="" src="https://novatorem-light-238epjfey-brudnak.vercel.app/api/spotify">
+  <img alt="light mode" src="https://novatorem-light-238epjfey-brudnak.vercel.app/api/spotify">
 </picture>
-</p>
 
 <p align="center">
   <a href="https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe">
