@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe">
     <img src="https://novatorem-bay-eight.vercel.app/api/spotify.svg#gh-dark-mode-only"/>
-  </a>
 </p>
 
 <p align="center">
