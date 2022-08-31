@@ -1,4 +1,4 @@
-<picture>
+<picture align="center">
   <source media="(prefers-color-scheme: dark)" srcset="https://novatorem-bay-eight.vercel.app/api/spotify">
   <img alt="" src="https://novatorem-light-238epjfey-brudnak.vercel.app/api/spotify">
 </picture>
@@ -14,8 +14,6 @@
     <img src="https://novatorem-light-238epjfey-brudnak.vercel.app/api/spotify"/>
   </a>
 </p>
-
-
 
 <h1 align="center">
   What I'm listening to on Spotify...
