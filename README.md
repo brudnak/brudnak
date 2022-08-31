@@ -1,11 +1,14 @@
-<p align="center">
-    [![Spotify](https://novatorem-bay-eight.vercel.app/api/spotify)](https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe)
-</p>
+<h2 align="center">
+  Listening to on Spotify...
+  <img src="https://github.com/brudnak/brudnak/blob/main/img/spotify.gif" width="75" />
+</h2>
 
-<h1 align="center">
-  Welcome to My Profile!
-  <img src="https://github.com/brudnak/brudnak/blob/main/img/git.gif" width="75" />
-</h1>
+<p align="center">
+  <a href="https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe">
+    <img src="https://novatorem-bay-eight.vercel.app/api/spotify"
+      alt="Listening to on Spotify..." />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://youtu.be/iicfmXFALM8">
