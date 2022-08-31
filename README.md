@@ -1,3 +1,5 @@
+[![Spotify](https://novatorem-bay-eight.vercel.app/api/spotify)](https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe)
+
 <h1 align="center">
   Welcome to My Profile!
   <img src="https://github.com/brudnak/brudnak/blob/main/img/git.gif" width="75" />
