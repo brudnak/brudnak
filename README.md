@@ -1,33 +1,19 @@
 <p align="center">
-  Listening to on Spotify...
-  <img src="https://github.com/brudnak/brudnak/blob/main/img/spotify.gif" width="75" />
-</p>
-
-<p align="center">
   <a href="https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe">
     <img src="https://novatorem-bay-eight.vercel.app/api/spotify"
       alt="Listening to on Spotify..." />
   </a>
 </p>
 
+<h1 align="center">
+  What I'm listening to on Spotify...
+  <img src="https://github.com/brudnak/brudnak/blob/main/img/spotify.gif" width="75" />
+</h1>
+
 <p align="center">
   <a href="https://youtu.be/iicfmXFALM8">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/chill-drive.webp"
       alt="Chill Drive - Aesthetic Music ~ Lofi hip hop mix" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://youtu.be/XKDGZ-VWLMg">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/raining_in_tokyo.webp"
-      alt="RAINING IN ＴＯＫＹＯ (Lofi HipHop)" />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://youtu.be/jrTMMG0zJyI">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/samurai_lofi.webp"
-      alt="Samurai ☯ Japanese Lofi HipHop Mix" />
   </a>
 </p>
 
