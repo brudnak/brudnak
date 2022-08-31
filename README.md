@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://novatorem-bay-eight.vercel.app/api/spotify.svg#gh-dark-mode-only"/>
+    <img src="https://novatorem-bay-eight.vercel.app/api/spotify#gh-dark-mode-only"/>
 </p>
 
 <p align="center">
