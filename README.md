@@ -1,7 +1,7 @@
-<h2 align="center">
+<p align="center">
   Listening to on Spotify...
   <img src="https://github.com/brudnak/brudnak/blob/main/img/spotify.gif" width="75" />
-</h2>
+</p>
 
 <p align="center">
   <a href="https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe">
