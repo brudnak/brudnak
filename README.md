@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe">
-    <img src="https://novatorem-light-238epjfey-brudnak.vercel.app/api/spotify.svg"/>
+    <img src="https://novatorem-light-238epjfey-brudnak.vercel.app/api/spotify"/>
   </a>
 </p>
 
