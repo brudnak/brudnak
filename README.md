@@ -44,7 +44,12 @@
 
 <p align="center">
   <img
-    src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg"
-    alt="snake"
+    src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg#gh-dark-mode-only"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.gif#gh-light-mode-only"
   />
 </p>
