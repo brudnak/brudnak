@@ -1,15 +1,17 @@
-<p align="center">
+<!-- <p align="center">
   <a href="https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe">
     <img src="https://novatorem-bay-eight.vercel.app/api/spotify" alt="What I'm listening to on Spotify... Loading..." />
   </a>
 </p>
 <h1 align="center"> What I'm listening to on Spotify... <img src="https://github.com/brudnak/brudnak/blob/main/img/spotify.gif" width="75" />
-</h1>
+</h1> -->
+
 <p align="center">
   <a href="https://youtu.be/iicfmXFALM8">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/chill-drive.webp" alt="Chill Drive - Aesthetic Music ~ Lofi hip hop mix" />
   </a>
 </p>
+
 <!-- Where to find these icons: https://simpleicons.org -->
 <p align="center">
   <img src="https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white&style=flat" />
@@ -32,9 +34,10 @@
     <img src="https://img.shields.io/badge/-Docker_Hub-2496ED?logo=docker&logoColor=white&style=flat" />
   </a>
 </p>
-<p align="center">
+
+<!-- <p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg#gh-dark-mode-only" />
 </p>
 <p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.gif#gh-light-mode-only" />
-</p>
+</p> -->
