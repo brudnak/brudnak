@@ -7,10 +7,14 @@
 </h1> -->
 
 <p align="center">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/me.png"/>
+</p>
+
+<!-- <p align="center">
   <a href="https://youtu.be/iicfmXFALM8">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/chill-drive.webp" alt="Chill Drive - Aesthetic Music ~ Lofi hip hop mix" />
   </a>
-</p>
+</p> -->
 
 <!-- Where to find these icons: https://simpleicons.org -->
 <p align="center">
