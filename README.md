@@ -7,7 +7,7 @@
 </h1> -->
 
 <p align="center">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/oil-painting-dev.png"/>
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/synthwave-container-ship.png"/>
 </p>
 
 <!-- <p align="center">
