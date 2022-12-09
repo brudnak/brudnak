@@ -10,11 +10,11 @@
     <img src="https://github.com/brudnak/brudnak/blob/main/img/synthwave-container-ship.png"/>
 </p>
 
-<!-- <p align="center">
+<p align="center">
   <a href="https://youtu.be/iicfmXFALM8">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/chill-drive.webp" alt="Chill Drive - Aesthetic Music ~ Lofi hip hop mix" />
   </a>
-</p> -->
+</p>
 
 <!-- Where to find these icons: https://simpleicons.org -->
 <p align="center">
@@ -39,9 +39,9 @@
   </a>
 </p>
 
-<!-- <p align="center">
+<p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg#gh-dark-mode-only" />
 </p>
 <p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.gif#gh-light-mode-only" />
-</p> -->
+</p>
