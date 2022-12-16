@@ -10,11 +10,11 @@
     <img src="https://github.com/brudnak/brudnak/blob/main/img/synthwave-container-ship.png"/>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://youtu.be/iicfmXFALM8">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/chill-drive.webp" alt="Chill Drive - Aesthetic Music ~ Lofi hip hop mix" />
   </a>
-</p>
+</p> -->
 
 <p align="center">
   <a href="https://youtu.be/s2extgY8tFU">
