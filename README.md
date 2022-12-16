@@ -16,6 +16,12 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://youtu.be/s2extgY8tFU">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/new-chill-drive.webp" alt="ＣＨＩＬＬ & ＤＲＩＶＥ 💜 Lofi Hip Hop Mix [ Beats To Relax / Stress Relief ]" />
+  </a>
+</p>
+
 <!-- Where to find these icons: https://simpleicons.org -->
 <p align="center">
   <img src="https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white&style=flat" />
