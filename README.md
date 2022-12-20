@@ -1,14 +1,20 @@
 <p align="center">
+  <a href="https://youtu.be/6tKpfL93CHA">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/go-bucks.webp" alt="Lofi Winter Mix + Snow" />
+  </a>
+</p>
+
+<!-- <p align="center">
   <a href="https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe">
     <img src="https://novatorem-bay-eight.vercel.app/api/spotify" alt="What I'm listening to on Spotify... Loading..." />
   </a>
 </p>
 <h1 align="center"> What I'm listening to on Spotify... <img src="https://github.com/brudnak/brudnak/blob/main/img/spotify.gif" width="75" />
-</h1>
+</h1> -->
 
-<p align="center">
+<!-- <p align="center">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/synthwave-container-ship.png"/>
-</p>
+</p> -->
 
 <!-- <p align="center">
   <a href="https://youtu.be/iicfmXFALM8">
@@ -16,11 +22,11 @@
   </a>
 </p> -->
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://youtu.be/s2extgY8tFU">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/new-chill-drive.webp" alt="ＣＨＩＬＬ & ＤＲＩＶＥ 💜 Lofi Hip Hop Mix [ Beats To Relax / Stress Relief ]" />
   </a>
-</p>
+</p> -->
 
 <!-- Where to find these icons: https://simpleicons.org -->
 <p align="center">
