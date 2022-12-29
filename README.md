@@ -1,8 +1,8 @@
-<p align="center">
+<!-- <p align="center">
   <a href="https://youtu.be/6tKpfL93CHA">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/go-bucks.webp" alt="Lofi Winter Mix + Snow" />
   </a>
-</p>
+</p> -->
 
 <!-- <p align="center">
   <a href="https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe">
