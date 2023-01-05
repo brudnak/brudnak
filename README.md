@@ -16,9 +16,15 @@
     <img src="https://github.com/brudnak/brudnak/blob/main/img/synthwave-container-ship.png"/>
 </p> -->
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://youtu.be/5OOMnZd2Ypg">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/toyama.webp" alt="RAINING IN ＴＯＹＡＭＡ (Lofi HipHop)" />
+  </a>
+</p> -->
+
+<p align="center">
+  <a href="https://youtu.be/74at3wnFLfU">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/nagasaki.webp" alt="RAINING IN ＮＡＧＡＳＡＫＩ (Lofi HipHop)" />
   </a>
 </p>
 
