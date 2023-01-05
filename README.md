@@ -12,8 +12,14 @@
 <h1 align="center"> What I'm listening to on Spotify... <img src="https://github.com/brudnak/brudnak/blob/main/img/spotify.gif" width="75" />
 </h1> -->
 
-<p align="center">
+<!-- <p align="center">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/synthwave-container-ship.png"/>
+</p> -->
+
+<p align="center">
+  <a href="https://youtu.be/5OOMnZd2Ypg">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/toyama.webp" alt="RAINING IN ＴＯＹＡＭＡ (Lofi HipHop)" />
+  </a>
 </p>
 
 <!-- <p align="center">
