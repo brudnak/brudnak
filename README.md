@@ -16,29 +16,11 @@
     <img src="https://github.com/brudnak/brudnak/blob/main/img/synthwave-container-ship.png"/>
 </p> -->
 
-<!-- <p align="center">
-  <a href="https://youtu.be/5OOMnZd2Ypg">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/toyama.webp" alt="RAINING IN ＴＯＹＡＭＡ (Lofi HipHop)" />
-  </a>
-</p> -->
-
 <p align="center">
   <a href="https://youtu.be/74at3wnFLfU">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/nagasaki.webp" alt="RAINING IN ＮＡＧＡＳＡＫＩ (Lofi HipHop)" />
   </a>
 </p>
-
-<!-- <p align="center">
-  <a href="https://youtu.be/iicfmXFALM8">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/chill-drive.webp" alt="Chill Drive - Aesthetic Music ~ Lofi hip hop mix" />
-  </a>
-</p> -->
-
-<!-- <p align="center">
-  <a href="https://youtu.be/s2extgY8tFU">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/new-chill-drive.webp" alt="ＣＨＩＬＬ & ＤＲＩＶＥ 💜 Lofi Hip Hop Mix [ Beats To Relax / Stress Relief ]" />
-  </a>
-</p> -->
 
 <!-- Where to find these icons: https://simpleicons.org -->
 <p align="center">
