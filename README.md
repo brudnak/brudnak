@@ -23,12 +23,8 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/brudnak/brudnak/blob/output/ocean.gif" />
-</p>
-
-<!-- <p align="center">
-  <img src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.svg#gh-dark-mode-only" />
+  <img src="https://github.com/brudnak/brudnak/blob/output/github-snake-dark.svg#gh-dark-mode-only" />
 </p>
 <p align="center">
-  <img src="https://github.com/brudnak/brudnak/blob/output/github-contribution-grid-snake.gif#gh-light-mode-only" />
-</p> -->
+  <img src="https://github.com/brudnak/brudnak/blob/output/github-snake.svg#gh-light-mode-only" />
+</p>
