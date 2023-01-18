@@ -23,7 +23,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/brudnak/brudnak/blob/output/github-snake-dark.svg#gh-dark-mode-only" />
+  <img src="https://github.com/brudnak/brudnak/blob/output/dark.svg#gh-dark-mode-only" />
 </p>
 <p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/ocean.gif#gh-light-mode-only" />
