@@ -1,6 +1,15 @@
 <p align="center">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/synthwave-container-ship.png"/>
+  <a href="https://youtu.be/5OOMnZd2Ypg">
+    <img
+      src="https://github.com/brudnak/brudnak/blob/main/img/toyama.webp"
+      alt="RAINING IN ＴＯＹＡＭＡ (Lofi HipHop)"
+    />
+  </a>
 </p>
+
+<!-- <p align="center">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/synthwave-container-ship.png"/>
+</p> -->
 
 <!-- Where to find these icons: https://simpleicons.org -->
 <p align="center">
@@ -22,9 +31,9 @@
   </a>
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/dark.svg#gh-dark-mode-only" />
 </p>
 <p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/ocean.gif#gh-light-mode-only" />
-</p>
+</p> -->
