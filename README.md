@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://youtu.be/5OOMnZd2Ypg">
     <img
-      src="https://github.com/brudnak/brudnak/blob/main/img/toyama.webp"
-      alt="RAINING IN ＴＯＹＡＭＡ (Lofi HipHop)"
+      src="https://github.com/brudnak/brudnak/blob/main/img/okayama.gif"
+      alt="RAINING IN ＯＫＡＹＡＭＡ (Lofi HipHop)"
     />
   </a>
 </p>
