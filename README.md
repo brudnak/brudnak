@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://youtu.be/5OOMnZd2Ypg">
+  <a href="https://youtu.be/Sr9R9Gfplgs">
     <img
       src="https://github.com/brudnak/brudnak/blob/main/img/okayama.gif"
       alt="RAINING IN ＯＫＡＹＡＭＡ (Lofi HipHop)"
