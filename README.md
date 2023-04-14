@@ -25,6 +25,16 @@
 </p>
 
 <p align="center">
+  <a href="https://youtu.be/PWhcISYYpqM">
+    <img
+      src="https://github.com/brudnak/brudnak/blob/main/img/leila.gif"
+      alt="BVG - leila (ft. sinxi)"
+    />
+  </a>
+</p>
+
+
+<p align="center">
   <a href="https://youtu.be/AGQ7QzACpdw">
     <img
       src="https://github.com/brudnak/brudnak/blob/main/img/its_3am_and_im_still_missing_you.gif"
@@ -32,10 +42,6 @@
     />
   </a>
 </p>
-
-<!-- <p align="center">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/synthwave-container-ship.png"/>
-</p> -->
 
 <!-- Where to find these icons: https://simpleicons.org -->
 <p align="center">
