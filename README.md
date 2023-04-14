@@ -1,20 +1,14 @@
 <p align="center">
   <a href="https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe">
-    <img src="https://novatorem-408u7s4wc-brudnak.vercel.app/api/spotify#gh-light-mode-only"/>
+    <img src="https://novatorem-bay-eight.vercel.app/api/spotify" alt="What I'm listening to on Spotify... Loading..." />
   </a>
 </p>
-
-<h1 align="center">
-  What I'm listening to on Spotify...
-  <img src="https://github.com/brudnak/brudnak/blob/main/img/spotify.gif" width="75" />
+<h1 align="center"> What I'm listening to on Spotify... <img src="https://github.com/brudnak/brudnak/blob/main/img/spotify.gif" width="75" />
 </h1>
 
 <p align="center">
-  <a href="https://youtu.be/Sr9R9Gfplgs">
-    <img
-      src="https://github.com/brudnak/brudnak/blob/main/img/okayama.gif"
-      alt="RAINING IN ＯＫＡＹＡＭＡ (Lofi HipHop)"
-    />
+  <a href="https://youtu.be/iicfmXFALM8">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/chill-drive.webp" alt="Chill Drive - Aesthetic Music ~ Lofi hip hop mix" />
   </a>
 </p>
 
