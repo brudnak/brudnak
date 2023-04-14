@@ -7,9 +7,9 @@
   </a>
 </p>
 
-<p align="center">
+<!-- <p align="center">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/synthwave-container-ship.png"/>
-</p>
+</p> -->
 
 <!-- Where to find these icons: https://simpleicons.org -->
 <p align="center">
