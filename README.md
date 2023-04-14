@@ -7,8 +7,29 @@
 </h1>
 
 <p align="center">
-  <a href="https://youtu.be/iicfmXFALM8">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/chill-drive.webp" alt="Chill Drive - Aesthetic Music ~ Lofi hip hop mix" />
+  <a href="https://youtu.be/Sr9R9Gfplgs">
+    <img
+      src="https://github.com/brudnak/brudnak/blob/main/img/okayama.gif"
+      alt="RAINING IN ＯＫＡＹＡＭＡ (Lofi HipHop)"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/PWhcISYYpqM">
+    <img
+      src="https://github.com/brudnak/brudnak/blob/main/img/BVG__leila_ft_sinxi.gif"
+      alt="BVG - leila (ft. sinxi)"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/AGQ7QzACpdw">
+    <img
+      src="https://github.com/brudnak/brudnak/blob/main/img/its_3am_and_im_still_missing_you.gif"
+      alt="its 3am and i'm still missing you"
+    />
   </a>
 </p>
 
