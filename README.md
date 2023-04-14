@@ -7,24 +7,6 @@
 </h1>
 
 <p align="center">
-  <a href="https://youtu.be/Sr9R9Gfplgs">
-    <img
-      src="https://github.com/brudnak/brudnak/blob/main/img/okayama.gif"
-      alt="RAINING IN ＯＫＡＹＡＭＡ (Lofi HipHop)"
-    />
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://youtu.be/PWhcISYYpqM">
-    <img
-      src="https://github.com/brudnak/brudnak/blob/main/img/BVG__leila_ft_sinxi.gif"
-      alt="BVG - leila (ft. sinxi)"
-    />
-  </a>
-</p>
-
-<p align="center">
   <a href="https://youtu.be/PWhcISYYpqM">
     <img
       src="https://github.com/brudnak/brudnak/blob/main/img/leila.gif"
@@ -33,12 +15,29 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://youtu.be/VTOgUcOx1sE">
+    <img
+      src="https://github.com/brudnak/brudnak/blob/main/img/toronto.gif"
+      alt="RAINING IN ＴＯＲＯＮＴＯ (Lofi HipHop)"
+    />
+  </a>
+</p>
 
 <p align="center">
   <a href="https://youtu.be/AGQ7QzACpdw">
     <img
-      src="https://github.com/brudnak/brudnak/blob/main/img/its_3am_and_im_still_missing_you.gif"
+      src="https://github.com/brudnak/brudnak/blob/main/img/3am.gif"
       alt="its 3am and i'm still missing you"
+    />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://youtu.be/Sr9R9Gfplgs">
+    <img
+      src="https://github.com/brudnak/brudnak/blob/main/img/okayama.gif"
+      alt="RAINING IN ＯＫＡＹＡＭＡ (Lofi HipHop)"
     />
   </a>
 </p>
@@ -54,6 +53,7 @@
   <img src="https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat" />
 </p>
+
 <p align="center">
   <a href="https://www.linkedin.com/in/andrew-brudnak">
     <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white&style=flat" />
