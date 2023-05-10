@@ -1,11 +1,11 @@
-<!-- <p align="center">
+<p align="center">
   <a href="https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe">
     <img src="https://novatorem-bay-eight.vercel.app/api/spotify" alt="What I'm listening to on Spotify... Loading..." />
   </a>
-</p> -->
+</p>
 
-<!-- <h1 align="center"> What I'm listening to on Spotify... <img src="https://github.com/brudnak/brudnak/blob/main/img/spotify.gif" width="75" />
-</h1> -->
+<h1 align="center"> What I'm listening to on Spotify... <img src="https://github.com/brudnak/brudnak/blob/main/img/spotify.gif" width="75" />
+</h1>
 
 <p align="center">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/k8s.png" alt="k8s" />
