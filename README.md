@@ -11,7 +11,7 @@
     <img src="https://github.com/brudnak/brudnak/blob/main/img/k8s.png" alt="k8s" />
 </p>
 
-<!-- <p align="center">
+<p align="center">
   <a href="https://youtu.be/PWhcISYYpqM">
     <img
       src="https://github.com/brudnak/brudnak/blob/main/img/leila.gif"
@@ -45,7 +45,7 @@
       alt="RAINING IN ＯＫＡＹＡＭＡ (Lofi HipHop)"
     />
   </a>
-</p> -->
+</p>
 
 <!-- Where to find these icons: https://simpleicons.org -->
 <p align="center">
@@ -68,9 +68,9 @@
   </a>
 </p>
 
-<!-- <p align="center">
+<p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/dark.svg#gh-dark-mode-only" />
 </p>
 <p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/ocean.gif#gh-light-mode-only" />
-</p> -->
+</p>
