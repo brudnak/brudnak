@@ -11,7 +11,7 @@
     <img src="https://github.com/brudnak/brudnak/blob/main/img/k8s.png" alt="k8s" />
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://youtu.be/PWhcISYYpqM">
     <img
       src="https://github.com/brudnak/brudnak/blob/main/img/leila.gif"
@@ -36,7 +36,7 @@
       alt="its 3am and i'm still missing you"
     />
   </a>
-</p>
+</p> -->
 
 <p align="center">
   <a href="https://youtu.be/Sr9R9Gfplgs">
