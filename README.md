@@ -7,10 +7,6 @@
 <h1 align="center"> What I'm listening to on Spotify... <img src="https://github.com/brudnak/brudnak/blob/main/img/spotify.gif" width="75" />
 </h1>
 
-<p align="center">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/k8s.png" alt="k8s" />
-</p>
-
 <!-- <p align="center">
   <a href="https://youtu.be/PWhcISYYpqM">
     <img
