@@ -1,10 +1,12 @@
 <p align="center">
   <a href="https://open.spotify.com/user/31vquxt2ifie5tzb7xmnuakxgshe">
-    <img src="https://novatorem-bay-eight.vercel.app/api/spotify" alt="What I'm listening to on Spotify... Loading..." />
+    <img src="https://novatorem-bay-eight.vercel.app/api/spotify"
+      alt="What I'm listening to on Spotify... Loading..." />
   </a>
 </p>
 
-<h1 align="center">Synced with Spotify... <img src="https://github.com/brudnak/brudnak/blob/main/img/spotify.gif" width="75" />
+<h1 align="center">Synced with Spotify... <img src="https://github.com/brudnak/brudnak/blob/main/img/spotify.gif"
+    width="75" />
 </h1>
 
 <!-- <p align="center">
@@ -34,18 +36,20 @@
   </a>
 </p> -->
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://youtu.be/Sr9R9Gfplgs">
-    <img
-      src="https://github.com/brudnak/brudnak/blob/main/img/okayama.gif"
-      alt="RAINING IN ＯＫＡＹＡＭＡ (Lofi HipHop)"
-    />
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/okayama.gif" alt="RAINING IN ＯＫＡＹＡＭＡ (Lofi HipHop)" />
   </a>
+</p> -->
+
+<p align="center">
+  <img src="https://github.com/brudnak/brudnak/blob/main/img/night-owl.gif" />
 </p>
 
 <!-- Where to find these icons: https://simpleicons.org -->
 <p align="center">
-  <img src="https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white&style=flat" />
+  <img src="https://img.shields.io/badge/-Go-00ADD8?logo=go" />
+  <img src="https://img.shields.io/badge/-Rust-000000?logo=rust" />
   <img src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-Rancher-0075A8?logo=rancher&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-Terraform-7B42BC?logo=terraform&logoColor=white&style=flat" />
