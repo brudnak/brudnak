@@ -43,7 +43,7 @@
 </p> -->
 
 <p align="center">
-  <img src="https://github.com/brudnak/brudnak/blob/main/img/mg.png" />
+  <img src="https://github.com/brudnak/brudnak/blob/main/img/mj.png" />
 </p>
 
 <!-- Where to find these icons: https://simpleicons.org -->
