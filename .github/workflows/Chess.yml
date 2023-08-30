@@ -4,6 +4,8 @@ on:
   issues:
     types: [opened]
 
+permissions: read-all|write-all
+
 jobs:
   move:
     permissions:
