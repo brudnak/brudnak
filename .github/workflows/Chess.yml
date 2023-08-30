@@ -3,6 +3,7 @@ name: Chess
 on:
   issues:
     types: [opened]
+
 permissions:
   contents: write
 
