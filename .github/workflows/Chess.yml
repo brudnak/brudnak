@@ -3,6 +3,8 @@ name: Chess
 on:
   issues:
     types: [opened]
+permissions:
+  contents: write
 
 jobs:
   move:
@@ -12,7 +14,7 @@ jobs:
     if: startsWith(github.event.issue.title, 'Chess:')
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
 
       # Set up a Python 3.10 (64-bit) instance
       - name: Setting up Python
