@@ -4,7 +4,7 @@ on:
   issues:
     types: [opened]
 
-permissions: write-all
+permissions: read-all|write-all
 
 jobs:
   move:
@@ -27,7 +27,7 @@ jobs:
       - name: Play chess
         env:
           ISSUE_NUMBER: ${{ github.event.issue.number }}
-          GITHUB_TOKEN: ${{ secrets.PA_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY_OWNER: ${{ github.repository_owner }}
         run: |
           pip install -r requirements.txt
@@ -38,7 +38,7 @@ jobs:
         env:
           ISSUE_TITLE: ${{ github.event.issue.title }}
           ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
-          GITHUB_TOKEN: ${{ secrets.PA_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
