@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://youtu.be/PWhcISYYpqM?si=yrcU_3snLVMNWcyZ">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/leila.gif" alt="BVG - leila (ft. sinxi)" />
+  <a href="https://youtu.be/Sr9R9Gfplgs?si=vF5Ja5svv92KeBmQ">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/okayama.gif" alt="RAINING IN ＯＫＡＹＡＭＡ (Lofi HipHop)" />
   </a>
 </p>
 
