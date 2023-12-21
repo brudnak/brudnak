@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://youtu.be/xIec7pRmdl4?si=EabPB8JhbxZSu9qY">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/slovakia.jpeg" alt="Lost Forest 🍃 Chill Lofi BeatsRAINING IN ＯＫＡＹＡＭＡ (Lofi HipHop)" />
+  <a href="https://youtu.be/bAYvwv9GGAA">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/rancher.png" alt="SNOWING IN ＯＳＡＫＡ (Lofi Hip Hop)">
   </a>
 </p>
 
