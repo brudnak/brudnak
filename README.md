@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://youtu.be/bAYvwv9GGAA">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/rancher02.png" alt="SNOWING IN ＯＳＡＫＡ (Lofi Hip Hop)">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/rancher01.png" alt="SNOWING IN ＯＳＡＫＡ (Lofi Hip Hop)">
   </a>
 </p>
 
