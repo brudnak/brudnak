@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://youtu.be/bAYvwv9GGAA">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/slovakia.jpeg" alt="SNOWING IN ＯＳＡＫＡ (Lofi Hip Hop)">
+  <a href="https://youtu.be/4z3loeX9vK8?si=Kv5UOMCL_31k0WEm">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/slovakia.jpeg" alt="eternal snowfall ❄️ deep ambient mix">
   </a>
 </p>
 
