@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://youtu.be/Sr9R9Gfplgs?si=V_0gP17EFw_FOPEr">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/okayama.gif" alt="RAINING IN ＯＫＡＹＡＭＡ (Lofi HipHop)">
+  <a href="https://youtu.be/Z3p2oCQyc0I?si=7C-5xrTZJpc21wEL">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/rancher_shinto.png" alt="SNOWING IN ＴＯＫＹＯ (Lofi Hip Hop)">
   </a>
 </p>
 
