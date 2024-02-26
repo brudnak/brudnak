@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://youtu.be/4z3loeX9vK8?si=Kv5UOMCL_31k0WEm">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/slovakia.jpeg" alt="eternal snowfall ❄️ deep ambient mix">
+  <a href="https://youtu.be/Sr9R9Gfplgs?si=V_0gP17EFw_FOPEr">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/okayama.gif" alt="RAINING IN ＯＫＡＹＡＭＡ (Lofi HipHop)">
   </a>
 </p>
 
