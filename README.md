@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://youtu.be/Z3p2oCQyc0I?si=7C-5xrTZJpc21wEL">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/rancher_shinto.png" alt="SNOWING IN ＴＯＫＹＯ (Lofi Hip Hop)">
+  <a href="https://youtu.be/6oXtq3nZ0OA?si=v_1YUHV4ibfG5jc3">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/slovakia.jpeg" alt="Powfu & Jomie - blindside">
   </a>
 </p>
 
