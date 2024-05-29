@@ -1,6 +1,6 @@
 
 <p align="center">
-    <object data="https://novatorem-gamma-two.vercel.app/api/spotify" type="image/png">
+    <object data="https://novatorem-gamma-two.vercel.app/api/spotify">
       <img src="https://github.com/brudnak/brudnak/blob/main/img/fallback.gif" alt="Loading...">
     </object>
 
