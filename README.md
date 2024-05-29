@@ -1,3 +1,10 @@
+
+<p align="center">
+  <a href="https://open.spotify.com/user/upv50bd8fofqcy9yibbgfmwly">
+    <img src="https://novatorem-gamma-two.vercel.app/api/spotify" alt="What I'm listening to on Spotify... Loading..." />
+  </a>
+</p>
+
 <p align="center">
   <a href="https://youtu.be/6oXtq3nZ0OA?si=yRIHDUq9uqLRtHo3">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/blindside.gif" alt="Powfu & Jomie - blindside">
