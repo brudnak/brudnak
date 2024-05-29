@@ -45,3 +45,15 @@
 <p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/ocean.gif#gh-light-mode-only" />
 </p>
+
+# 🍕 brudnak's Top 8 Page🍕
+
+
+
+| [@russellbrudnak](https://github.com/russellbrudnak)                               | [@jessicabrudnak](https://github.com/jessicabrudnak)                               | [@Josh-Diamond](https://github.com/Josh-Diamond)                               | [@ShelbyDiamond](https://github.com/ShelbyDiamond)                               |
+| ------------------------------------------------------------------------------ | ---------------------------------------------------------------------- | -------------------------------------------------------------------------- | -------------------------------------------------------------------- |
+| ![@russellbrudnak](https://avatars.githubusercontent.com/russellbrudnak?s=150&v=1) | ![@jessicabrudnak](https://avatars.githubusercontent.com/jessicabrudnak?s=150&v=1) | ![@Josh-Diamond](https://avatars.githubusercontent.com/Josh-Diamond?s=150&v=1) | ![@ShelbyDiamond](https://avatars.githubusercontent.com/ShelbyDiamond?s=150&v=1) |
+
+| [@GoesToEleven](https://github.com/GoesToEleven)                               | [@sgapanovich](https://github.com/sgapanovich)                               | [@jmcsagdc](https://github.com/jmcsagdc)                               | [tom](#https://wittenbrock.github.io/toms-myspace-page/)                     |
+| ------------------------------------------------------------------ | -------------------------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| ![@GoesToEleven](https://avatars.githubusercontent.com/GoesToEleven?s=150&v=1) | ![@sgapanovich](https://avatars.githubusercontent.com/sgapanovich?s=150&v=1) | ![@jmcsagdc](https://avatars.githubusercontent.com/jmcsagdc?s=150&v=1) | ![tom](https://wittenbrock.github.io/toms-myspace-page/pictures/tom-pic.jpg) |
