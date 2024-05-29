@@ -1,5 +1,9 @@
 
 <p align="center">
+    <object data="https://novatorem-gamma-two.vercel.app/api/spotify" type="image/png">
+      <img src="https://github.com/brudnak/brudnak/blob/main/img/fallback.gif" alt="Loading...">
+    </object>
+
   <a href="https://open.spotify.com/user/upv50bd8fofqcy9yibbgfmwly">
     <img src="https://novatorem-gamma-two.vercel.app/api/spotify" alt="What I'm listening to on Spotify... Loading..." />
   </a>
