@@ -48,7 +48,7 @@
 
 # 🍕 brudnak's Top 8 Page🍕
 
-  <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="70">
+  <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
 | [@russellbrudnak](https://github.com/russellbrudnak)                               | [@jessicabrudnak](https://github.com/jessicabrudnak)                               | [@Josh-Diamond](https://github.com/Josh-Diamond)                               | [@ShelbyDiamond](https://github.com/ShelbyDiamond)                               |
 | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
