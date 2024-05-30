@@ -57,3 +57,7 @@
 | [@GoesToEleven](https://github.com/GoesToEleven)                               | [@sgapanovich](https://github.com/sgapanovich)                               | [@jmcsagdc](https://github.com/jmcsagdc)                               | [tom](#https://wittenbrock.github.io/toms-myspace-page/)                     |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | ![@GoesToEleven](https://avatars.githubusercontent.com/GoesToEleven?s=150&v=1) | ![@sgapanovich](https://avatars.githubusercontent.com/sgapanovich?s=150&v=1) | ![@jmcsagdc](https://avatars.githubusercontent.com/jmcsagdc?s=150&v=1) | ![tom](https://wittenbrock.github.io/toms-myspace-page/pictures/tom-pic.jpg) |
+
+<p align="center">
+  <img src="https://github.com/brudnak/brudnak/blob/main/img/light-mode.png#gh-light-mode-only" />
+</p>
