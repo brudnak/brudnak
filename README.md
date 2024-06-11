@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/VTOgUcOx1sE?si=G3oKYY38q0c81hJg">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/toronto.gif" alt="RAINING IN ＴＯＲＯＮＴＯ (Lofi HipHop)">
+  <a href="https://youtu.be/AGQ7QzACpdw?si=LV-2NV44XfETeRTV">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/3am.gif" alt="its 3am and i'm still missing you">
   </a>
 </p>
 
