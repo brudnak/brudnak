@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/AGQ7QzACpdw?si=LV-2NV44XfETeRTV">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/3am.gif" alt="its 3am and i'm still missing you">
+  <a href="https://youtu.be/7YmNvCy30FU?si=04-_nceZ74fjhOu0">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/slovakia.jpg" alt="Enchanted Forest 🍃 Chill Lofi Beats">
   </a>
 </p>
 
