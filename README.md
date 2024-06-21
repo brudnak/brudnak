@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://youtu.be/7YmNvCy30FU?si=04-_nceZ74fjhOu0">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/slovakia.jpg" alt="Enchanted Forest 🍃 Chill Lofi Beats">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/slovakia.jpeg" alt="Enchanted Forest 🍃 Chill Lofi Beats">
   </a>
 </p>
 
