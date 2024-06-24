@@ -47,7 +47,7 @@
   <img src="https://github.com/brudnak/brudnak/blob/output/ocean.gif#gh-light-mode-only" />
 </p>
 
-# 🍕 brudnak's Top 8 Page🍕
+# 🇸🇰 brudnak's Top 8 Page 
 
   <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
