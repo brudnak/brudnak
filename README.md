@@ -15,7 +15,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/-Go-00ADD8?logo=go&logoColor=white&style=fla" />
   <img src="https://img.shields.io/badge/-Rust-000000?logo=rust&logoColor=white&style=fla" />
-  <imgsrc="https://img.shields.io/badge/-Zig-F7A41D?logo=zig&logoColor=white&styl=fla" />
+  <img src="https://img.shields.io/badge/-Zig-F7A41D?logo=zig&logoColor=white&styl=fla" />
   <img src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-Rancher-0075A8?logo=rancher&logoColor=white&style=flat" />
   <img src="https://img.shields.io/badge/-Terraform-7B42BC?logo=terraform&logoColor=white&style=flat" />
