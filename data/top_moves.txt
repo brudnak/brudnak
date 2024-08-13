@@ -1,1 +1,1 @@
-{'@brudnak': 2, '@Josh-Diamond': 1}
+{'@brudnak': 2, '@Josh-Diamond': 2}
