@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="https://youtu.be/AGQ7QzACpdw?si=bKAjVR7icaJpzH39">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/amialone.gif" alt="https://youtu.be/6bXMH98JlX4">
+  <a href="https://youtu.be/6bXMH98JlX4?si=HOBkDKfC1vX_vi7z">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/amialone.gif" alt="𝗮𝗺 𝗶 𝗮𝗹𝗼𝗻𝗲?">
   </a>
 </p>
 
