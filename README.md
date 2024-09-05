@@ -7,7 +7,7 @@
 
 <p align="center">
   <a href="https://youtu.be/AGQ7QzACpdw?si=bKAjVR7icaJpzH39">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/3am.gif" alt="its 3am and i'm still missing you">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/amialone.gif" alt="https://youtu.be/6bXMH98JlX4">
   </a>
 </p>
 
