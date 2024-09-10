@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=RqPIxIhcyYk">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/bart.gif" alt="Lonely Night 🌃🌧️ Lofi hip hop / Rain Sounds ~ Stress Relief, Relaxing Music">
+  <a href="https://youtu.be/6bXMH98JlX4?si=J1tALDre63DmuICD">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/alone.gif" alt="𝗮𝗺 𝗶 𝗮𝗹𝗼𝗻𝗲?">
   </a>
 </p>
 
