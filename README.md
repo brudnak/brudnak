@@ -13,7 +13,7 @@
 
 # Andrew's README Chess Tournament 👑
 
-This is an open chess tournament where ANYONE can play. That's the fun part.  
+This is an open chess tournament where ANYONE can play. That's the fun part.
 It's your turn to play! Move a <!-- BEGIN TURN -->white<!-- END TURN --> piece.
 
 <!-- BEGIN CHESS BOARD -->
@@ -134,9 +134,9 @@ Have you spotted a bug? Something missing? Feel free to open an [issue](https://
 | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
 | ![@russellbrudnak](https://avatars.githubusercontent.com/russellbrudnak?s=150&v=1) | ![@jessicabrudnak](https://avatars.githubusercontent.com/jessicabrudnak?s=150&v=1) | ![@Josh-Diamond](https://avatars.githubusercontent.com/Josh-Diamond?s=150&v=1) | ![@dasarinaidu](https://avatars.githubusercontent.com/dasarinaidu?s=150&v=1) |
 
-| [@GoesToEleven](https://github.com/GoesToEleven)                               | [@sgapanovich](https://github.com/sgapanovich)                               | [@jmcsagdc](https://github.com/jmcsagdc)                               | [tom](#https://wittenbrock.github.io/toms-myspace-page/)         |
+| [@fillipehmeireles](https://github.com/fillipehmeireles)                               | [@sgapanovich](https://github.com/sgapanovich)                               | [@jmcsagdc](https://github.com/jmcsagdc)                               | [tom](#https://wittenbrock.github.io/toms-myspace-page/)         |
 | ------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| ![@GoesToEleven](https://avatars.githubusercontent.com/GoesToEleven?s=150&v=1) | ![@sgapanovich](https://avatars.githubusercontent.com/sgapanovich?s=150&v=1) | ![@jmcsagdc](https://avatars.githubusercontent.com/jmcsagdc?s=150&v=1) | ![tom](https://github.com/brudnak/brudnak/blob/main/img/tom.jpg) |
+| ![@fillipehmeireles](https://avatars.githubusercontent.com/fillipehmeireles?s=150&v=1) | ![@sgapanovich](https://avatars.githubusercontent.com/sgapanovich?s=150&v=1) | ![@jmcsagdc](https://avatars.githubusercontent.com/jmcsagdc?s=150&v=1) | ![tom](https://github.com/brudnak/brudnak/blob/main/img/tom.jpg) |
 
 <p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/main/img/light-mode.png#gh-light-mode-only" />
