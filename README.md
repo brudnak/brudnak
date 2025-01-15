@@ -86,15 +86,6 @@ Have you spotted a bug? Something missing? Feel free to open an [issue](https://
   <summary>Last 5 moves in this game</summary>
 <!-- BEGIN LAST MOVES -->
 
-<<<<<<< HEAD
-|     Move     | Author                                                    |
-| :----------: | :-------------------------------------------------------- |
-| `E7` to `G5` | [ @brudnak](https://github.com/brudnak)                   |
-| `H2` to `H3` | [ @fillipehmeireles](https://github.com/fillipehmeireles) |
-| `H5` to `G4` | [ @GingerGeek](https://github.com/GingerGeek)             |
-| `G3` to `G4` | [ @brudnak](https://github.com/brudnak)                   |
-| `E8` to `F7` | [ @partypiotr](https://github.com/partypiotr)             |
-=======
 | Move | Author |
 | :--: | :----- |
 | `H8` to `H3` | [ @LordEnder-Kitty](https://github.com/LordEnder-Kitty) |
@@ -102,7 +93,6 @@ Have you spotted a bug? Something missing? Feel free to open an [issue](https://
 | `G5` to `E3` | [ @brudnak](https://github.com/brudnak) |
 | `A2` to `A4` | [ @partypiotr](https://github.com/partypiotr) |
 | `E7` to `G5` | [ @brudnak](https://github.com/brudnak) |
->>>>>>> d28091620d8d57d82f6eff52d6923903fe45c1f6
 
 <!-- END LAST MOVES -->
 </details>
@@ -111,7 +101,6 @@ Have you spotted a bug? Something missing? Feel free to open an [issue](https://
   <summary>Top 10 most moves across all games</summary>
 <!-- BEGIN TOP MOVES -->
 
-<<<<<<< HEAD
 | Total moves | User                                                     |
 | :---------: | :------------------------------------------------------- |
 |     15      | [@brudnak](https://github.com/brudnak)                   |
@@ -122,20 +111,6 @@ Have you spotted a bug? Something missing? Feel free to open an [issue](https://
 |      1      | [@partypiotr](https://github.com/partypiotr)             |
 |      1      | [@GingerGeek](https://github.com/GingerGeek)             |
 |      1      | [@fillipehmeireles](https://github.com/fillipehmeireles) |
-=======
-| Total moves |  User  |
-| :---------: | :----- |
-| 16 | [@brudnak](https://github.com/brudnak) |
-| 6 | [@russellbrudnak](https://github.com/russellbrudnak) |
-| 4 | [@Josh-Diamond](https://github.com/Josh-Diamond) |
-| 2 | [@partypiotr](https://github.com/partypiotr) |
-| 1 | [@erodrigufer](https://github.com/erodrigufer) |
-| 1 | [@kawaii-Code](https://github.com/kawaii-Code) |
-| 1 | [@GingerGeek](https://github.com/GingerGeek) |
-| 1 | [@fillipehmeireles](https://github.com/fillipehmeireles) |
-| 1 | [@DziedzicGrzegorz](https://github.com/DziedzicGrzegorz) |
-| 1 | [@LordEnder-Kitty](https://github.com/LordEnder-Kitty) |
->>>>>>> d28091620d8d57d82f6eff52d6923903fe45c1f6
 
 <!-- END TOP MOVES -->
 </details>
