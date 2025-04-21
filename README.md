@@ -5,7 +5,7 @@
   </a>
 </p>
 
-# 🇸🇰 brudnak's Top 8 Page 🇸🇰
+# brudnak's Friend Space
 
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
