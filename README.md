@@ -5,17 +5,15 @@
   </a>
 </p>
 
-# 🍕 brudnak's Top 8 Page🍕
+# 🇸🇰 brudnak's Top 8 Page 🇸🇰
 
-  <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
+<img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
-
-
-| [@russellbrudnak](https://github.com/russellbrudnak) | [@jessicabrudnak](https://github.com/jessicabrudnak) | [@Josh-Diamond](https://github.com/Josh-Diamond) | [@ShelbyDiamond](https://github.com/ShelbyDiamond) |
-|---|---|---|---|
-| ![@russellbrudnak](https://avatars.githubusercontent.com/russellbrudnak?s=150&v=1) | ![@jessicabrudnak](https://avatars.githubusercontent.com/jessicabrudnak?s=150&v=1) | ![@Josh-Diamond](https://avatars.githubusercontent.com/Josh-Diamond?s=150&v=1) | ![@ShelbyDiamond](https://avatars.githubusercontent.com/ShelbyDiamond?s=150&v=1) |
-| [@GoesToEleven](https://github.com/GoesToEleven) | [@sgapanovich](https://github.com/sgapanovich) | [@jmcsagdc](https://github.com/jmcsagdc) | [tom](https://wittenbrock.github.io/toms-myspace-page/) |
-| ![@GoesToEleven](https://avatars.githubusercontent.com/GoesToEleven?s=150&v=1) | ![@sgapanovich](https://avatars.githubusercontent.com/sgapanovich?s=150&v=1) | ![@jmcsagdc](https://avatars.githubusercontent.com/jmcsagdc?s=150&v=1) | ![tom](https://wittenbrock.github.io/toms-myspace-page/pictures/tom-pic.jpgs) |
+| [@sgapanovich](https://github.com/sgapanovich)                                 | [@fillipehmeireles](https://github.com/fillipehmeireles)                               | [@Josh-Diamond](https://github.com/Josh-Diamond)                               | [@dasarinaidu](https://github.com/dasarinaidu)                                |
+|--------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+| ![@sgapanovich](https://avatars.githubusercontent.com/sgapanovich?s=150&v=1)   | ![@fillipehmeireles](https://avatars.githubusercontent.com/fillipehmeireles?s=150&v=1) | ![@Josh-Diamond](https://avatars.githubusercontent.com/Josh-Diamond?s=150&v=1) | ![@dasarinaidu](https://avatars.githubusercontent.com/dasarinaidu?s=150&v=1)  |
+| [@GoesToEleven](https://github.com/GoesToEleven)                               | [@hajimehoshi](https://github.com/hajimehoshi)                                         | [@jmcsagdc](https://github.com/jmcsagdc)                                       | [tom](https://wittenbrock.github.io/toms-myspace-page/)                       |
+| ![@GoesToEleven](https://avatars.githubusercontent.com/GoesToEleven?s=150&v=1) | ![@hajimehoshi](https://avatars.githubusercontent.com/hajimehoshi?s=150&v=1)           | ![@jmcsagdc](https://avatars.githubusercontent.com/jmcsagdc?s=150&v=1)         | ![tom](https://wittenbrock.github.io/toms-myspace-page/pictures/tom-pic.jpgs) |
 
 
 <p align="center">
