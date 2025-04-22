@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://youtu.be/6bXMH98JlX4">
-    <img src="https://raw.githubusercontent.com/brudnak/brudnak/main/img/bart.webp" alt="" width="500" loading="lazy">
+    <img src="https://raw.githubusercontent.com/brudnak/brudnak/main/img/bart.webp" alt="">
   </a>
 </p>
 
