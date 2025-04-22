@@ -16,7 +16,7 @@
 
 <p align="center">
   <a href="https://youtu.be/6bXMH98JlX4">
-    <img src="https://github.com/brudnak/brudnak/blob/main/img/bart.gif" alt="">
+    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTE4ZW1vaHZ0dG8yMHVpcnB2bXd6aWk0amJ6YWpsZ2l6cjhkNW8yayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/sbKsnSKhgMUgVMMysc/giphy.gif" alt="">
   </a>
 </p>
 
