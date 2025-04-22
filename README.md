@@ -1,3 +1,4 @@
+<img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
 <p align="center">
   <a href="https://open.spotify.com/user/upv50bd8fofqcy9yibbgfmwly">
@@ -6,8 +7,6 @@
 </p>
 
 # brudnak's Friend Space
-
-<img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
 | [@sgapanovich](https://github.com/sgapanovich)                                 | [@fillipehmeireles](https://github.com/fillipehmeireles)                               | [@Josh-Diamond](https://github.com/Josh-Diamond)                               | [@dasarinaidu](https://github.com/dasarinaidu)                               |
 |--------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------|
