@@ -1,6 +1,12 @@
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
 <p align="center">
+  <a href="https://youtu.be/6bXMH98JlX4">
+    <img src="https://raw.githubusercontent.com/brudnak/brudnak/main/img/bart.webp" alt="">
+  </a>
+</p>
+
+<p align="center">
   <a href="https://open.spotify.com/user/upv50bd8fofqcy9yibbgfmwly">
     <img src="https://novatorem-gamma-two.vercel.app/api/spotify" alt="What I'm listening to on Spotify... Loading..." />
   </a>
@@ -14,11 +20,6 @@
 | [@GoesToEleven](https://github.com/GoesToEleven)                               | [@hajimehoshi](https://github.com/hajimehoshi)                                         | [@jmcsagdc](https://github.com/jmcsagdc)                                       | [tom](https://wittenbrock.github.io/toms-myspace-page/)                      |
 | ![@GoesToEleven](https://avatars.githubusercontent.com/GoesToEleven?s=150&v=1) | ![@hajimehoshi](https://avatars.githubusercontent.com/hajimehoshi?s=150&v=1)           | ![@jmcsagdc](https://avatars.githubusercontent.com/jmcsagdc?s=150&v=1)         | ![tom](https://github.com/brudnak/brudnak/blob/main/img/tom.jpg)             |
 
-<p align="center">
-  <a href="https://youtu.be/6bXMH98JlX4">
-    <img src="https://raw.githubusercontent.com/brudnak/brudnak/main/img/bart.webp" alt="">
-  </a>
-</p>
 
 <p align="center">
   <img src="https://github.com/brudnak/brudnak/blob/output/github-snake-dark.svg#gh-dark-mode-only" />
