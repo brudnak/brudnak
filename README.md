@@ -15,7 +15,7 @@
 | ![@GoesToEleven](https://avatars.githubusercontent.com/GoesToEleven?s=150&v=1) | ![@hajimehoshi](https://avatars.githubusercontent.com/hajimehoshi?s=150&v=1)           | ![@jmcsagdc](https://avatars.githubusercontent.com/jmcsagdc?s=150&v=1)         | ![tom](https://github.com/brudnak/brudnak/blob/main/img/tom.jpg)             |
 
 <p align="center">
-  <img src="https://giphy.com/embed/sbKsnSKhgMUgVMMysc" alt="" />
+  <img src="https://media.giphy.com/media/sbKsnSKhgMUgVMMysc/giphy.gif?raw=true" alt="">
 </p>
 
 <p align="center">
