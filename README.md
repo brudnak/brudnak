@@ -1,5 +1,3 @@
-<img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
-
 <p align="center">
   <a href="https://youtu.be/6bXMH98JlX4#gh-dark-mode-only">
     <img src="https://raw.githubusercontent.com/brudnak/brudnak/main/img/bart.webp#gh-dark-mode-only" alt="">
@@ -13,6 +11,8 @@
 </p>
 
 # brudnak's Friend Space
+
+<img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
 | [@sgapanovich](https://github.com/sgapanovich)                                 | [@fillipehmeireles](https://github.com/fillipehmeireles)                               | [@Josh-Diamond](https://github.com/Josh-Diamond)                               | [@dasarinaidu](https://github.com/dasarinaidu)                               |
 |--------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------|
