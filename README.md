@@ -1,7 +1,7 @@
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
 <p align="center">
-  <a href="https://youtu.be/6bXMH98JlX4">
+  <a href="https://youtu.be/6bXMH98JlX4#gh-dark-mode-only">
     <img src="https://raw.githubusercontent.com/brudnak/brudnak/main/img/bart.webp#gh-dark-mode-only" alt="">
   </a>
 </p>
