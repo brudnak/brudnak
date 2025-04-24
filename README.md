@@ -1,12 +1,6 @@
 <p align="center">
-  <a href="https://youtu.be/6bXMH98JlX4#gh-dark-mode-only">
-    <img src="https://raw.githubusercontent.com/brudnak/brudnak/main/img/bart.webp#gh-dark-mode-only" alt="">
-  </a>
-</p>
-
-<p align="center">
   <a href="https://open.spotify.com/user/upv50bd8fofqcy9yibbgfmwly">
-    <img src="https://novatorem-gamma-two.vercel.app/api/spotify#gh-dark-mode-only" alt="What I'm listening to on Spotify... Loading..." />
+    <img src="https://novatorem-gamma-two.vercel.app/api/spotify" alt="What I'm listening to on Spotify... Loading..." />
   </a>
 </p>
 
