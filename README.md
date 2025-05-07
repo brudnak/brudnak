@@ -46,7 +46,3 @@
     <img src="https://img.shields.io/badge/-Bitbucket-0052CC?logo=bitbucket&logoColor=white&style=flat" />
   </a>
 </p>
-
-<p align="center">
-  <img src="https://github.com/brudnak/brudnak/blob/main/img/light-mode.png#gh-light-mode-only" />
-</p>
