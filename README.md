@@ -7,6 +7,17 @@
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
 <!-- log tracker start -->
+<!-- log tracker start -->
+
+## 🌍 Where I've Written Code
+
+| Country | Region / State | City | Sessions |
+|---------|-----------------|------|----------|
+| \U1f220 { | { | { | { |
+| \U1f210\U1f20a\U1f21e\U1f1df\U1f1c5\U1f1e8\U1f1e6\U1f1d1\U1f1f6\U1f21a\U1f20a\U1f207\U1f20a\U1f208\U1f1d1\U1f1f1\U1f1cc\U1f1e6\U1f213\U1f20c\U1f20a\U1f1d2\U1f1ec\U1f206\U1f217\U1f209\U1f20e\U1f20a\U1f213\U1f1d1 key: CA,Quebec,L'Ange-Gardien, | key: CA,Quebec,L'Ange-Gardien, | key: CA,Quebec,L'Ange-Gardien, | key: CA,Quebec,L'Ange-Gardien, |
+| \U1f208\U1f214\U1f21a\U1f213\U1f219\U1f1df\U1f1c5\U1f1d6 count: 1 | count: 1 | count: 1 | count: 1 |
+| \U1f222 } | } | } | } |
+
 <!-- log tracker end -->
 
 # $${\color{red}b}\color{orange}r\color{blue}u\color{green}d\color{violet}n\color{blue}a\color{red}k{\color{violet}'s} \space \color{blue}{Friend \space Space}$$
