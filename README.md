@@ -6,6 +6,16 @@
 
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
+<!-- log tracker start -->
+<!-- log tracker end -->
+
+# $${\color{red}b}\color{orange}r\color{blue}u\color{green}d\color{violet}n\color{blue}a\color{red}k{\color{violet}'s} \space \color{blue}{Friend \space Space}$$
+
+| [@sgapanovich](https://github.com/sgapanovich)                                 | [@fillipehmeireles](https://github.com/fillipehmeireles)                               | [@Josh-Diamond](https://github.com/Josh-Diamond)                               | [@dasarinaidu](https://github.com/dasarinaidu)                               |
+|--------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| ![@sgapanovich](https://avatars.githubusercontent.com/sgapanovich?s=150&v=1)   | ![@fillipehmeireles](https://avatars.githubusercontent.com/fillipehmeireles?s=150&v=1) | ![@Josh-Diamond](https://avatars.githubusercontent.com/Josh-Diamond?s=150&v=1) | ![@dasarinaidu](https://avatars.githubusercontent.com/dasarinaidu?s=150&v=1) |
+| [@GoesToEleven](https://github.com/GoesToEleven)                               | [@hajimehoshi](https://github.com/hajimehoshi)                                         | [@jmcsagdc](https://github.com/jmcsagdc)                                       | [tom](https://wittenbrock.github.io/toms-myspace-page/)                      |
+| ![@GoesToEleven](https://avatars.githubusercontent.com/GoesToEleven?s=150&v=1) | ![@hajimehoshi](https://avatars.githubusercontent.com/hajimehoshi?s=150&v=1)           | ![@jmcsagdc](https://avatars.githubusercontent.com/jmcsagdc?s=150&v=1)         | ![tom](https://github.com/brudnak/brudnak/blob/main/img/tom.jpg)             |
 
 ## 🏅 My Credly Badges
 
@@ -46,5 +56,3 @@
     <img src="https://img.shields.io/badge/-Bitbucket-0052CC?logo=bitbucket&logoColor=white&style=flat" />
   </a>
 </p>
-<!-- log tracker start -->
-<!-- log tracker end -->

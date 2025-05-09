@@ -59,15 +59,27 @@ jq -r 'group_by(.country + .region + .city)
 echo "<!-- log tracker end -->" >> "$TABLE_FILE"
 
 # ------------------------------------------
-# 4. Inject between log tracker tags in README
+# 4. Replace content between log tracker tags in-place
 # ------------------------------------------
-sed -i.bak -e '/<!-- log tracker start -->/,/<!-- log tracker end -->/d' README.md
-awk '{print} /<!-- log tracker start -->/ {exit}' "$TABLE_FILE" > temp_top.md
-awk 'BEGIN{found=0} {if($0 ~ /<!-- log tracker end -->/) found=1; if(found) print}' "$TABLE_FILE" > temp_bottom.md
-awk 'FNR==NR { print; next } 1' temp_top.md temp_bottom.md > temp_combined.md
-awk '1' README.md temp_combined.md > new_readme.md
+awk -v newblock="$(cat $TABLE_FILE | sed 's/\//\\\//g' | tr '\n' '\\n')" '
+BEGIN { inblock=0 }
+{
+  if ($0 ~ /<!-- log tracker start -->/) {
+    print "<!-- log tracker start -->";
+    print "";
+    inblock=1;
+    while (getline < "table.md") print;
+    next
+  }
+  if ($0 ~ /<!-- log tracker end -->/) {
+    inblock=0;
+    next
+  }
+  if (!inblock) print
+}' README.md > new_readme.md
+
 mv new_readme.md README.md
-rm "$TABLE_FILE" temp_top.md temp_bottom.md README.md.bak
+rm "$TABLE_FILE"
 
 # ------------------------------------------
 # 5. Commit changes
