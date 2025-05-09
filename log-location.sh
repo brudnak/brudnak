@@ -75,15 +75,20 @@ echo "" >> "$TABLE_FILE"
 echo "<!-- log tracker end -->" >> "$TABLE_FILE"
 
 # ------------------------------------------
-# 4. Replace content between log tracker tags in-place
+# 4. Replace table in-place in README.md
 # ------------------------------------------
 awk '
-  /<!-- log tracker start -->/ { found_start=1; next }
-  /<!-- log tracker end -->/ { found_end=1; next }
-  !found_start || found_end { print }
+  BEGIN {in_block=0}
+  /<!-- log tracker start -->/ {
+    print; 
+    while ((getline line < "table.md") > 0) print line;
+    in_block=1;
+    next;
+  }
+  /<!-- log tracker end -->/ {in_block=0; next}
+  !in_block {print}
 ' README.md > temp_readme.md
 
-cat "$TABLE_FILE" >> temp_readme.md
 mv temp_readme.md README.md
 rm "$TABLE_FILE"
 
