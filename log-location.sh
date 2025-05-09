@@ -32,6 +32,7 @@ fi
 LOG_FILE="location-log.json"
 TABLE_FILE="table.md"
 COUNTRY_NAMES_FILE="country-names.json"
+COUNTRY_FLAGS_FILE="country-flags.json"
 
 if [ ! -f "$LOG_FILE" ]; then
   echo "[]" > "$LOG_FILE"
@@ -42,14 +43,6 @@ jq --arg ts "$TIMESTAMP" \
    --arg loc "$LOC" --arg org "$ORG" --arg tz "$TIMEZONE" \
    '. + [{"timestamp": $ts, "country": $c, "region": $r, "city": $city, "loc": $loc, "org": $org, "timezone": $tz}]' \
    "$LOG_FILE" > tmp.json && mv tmp.json "$LOG_FILE"
-
-# Function to convert country code to emoji flag
-country_flag() {
-  local code="$1"
-  echo "$code" | awk '
-  function codepoint(c) { return sprintf("%c", 0x1F1E6 + index("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) - 1) }
-  { print codepoint(substr($0, 1, 1)) codepoint(substr($0, 2, 1)) }'
-}
 
 # ------------------------------------------
 # 3. Generate Markdown Table
@@ -68,7 +61,7 @@ jq -r 'group_by(.country + .region + .city)
   REGION=$(echo "$line" | cut -d '|' -f 2 | xargs)
   CITY=$(echo "$line" | cut -d '|' -f 3 | xargs)
   COUNT=$(echo "$line" | cut -d '|' -f 4 | xargs)
-  EMOJI=$(country_flag "$COUNTRY")
+  EMOJI=$(jq -r --arg code "$COUNTRY" '.[$code] // ""' "$COUNTRY_FLAGS_FILE")
   NAME=$(jq -r --arg code "$COUNTRY" '.[$code] // $code' "$COUNTRY_NAMES_FILE")
   echo "| $EMOJI $NAME | $REGION | $CITY | $COUNT |" >> "$TABLE_FILE"
 done
@@ -82,11 +75,15 @@ echo "<!-- log tracker end -->" >> "$TABLE_FILE"
 awk '
   BEGIN { inside=0 }
   /<!-- log tracker start -->/ {
-    print; 
+    print;
     while ((getline line < "table.md") > 0) print line;
-    inside=1; next;
+    inside=1;
+    next;
   }
-  /<!-- log tracker end -->/ { inside=0; next; }
+  /<!-- log tracker end -->/ {
+    inside=0;
+    next;
+  }
   !inside { print }
 ' README.md > new_readme.md
 
