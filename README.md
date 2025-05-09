@@ -6,7 +6,7 @@
 
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
-# $${\color{red}b}\color{orange}r\color{blue}u\color{green}d\color{violet}n\color{blue}a\color{red}k{\color{black}'s} \space \color{blue}{Friend \space Space}$$
+# $${\color{red}b}\color{orange}r\color{blue}u\color{green}d\color{violet}n\color{blue}a\color{red}k{\color{violet}'s} \space \color{blue}{Friend \space Space}$$
 
 | [@sgapanovich](https://github.com/sgapanovich)                                 | [@fillipehmeireles](https://github.com/fillipehmeireles)                               | [@Josh-Diamond](https://github.com/Josh-Diamond)                               | [@dasarinaidu](https://github.com/dasarinaidu)                               |
 |--------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------|
