@@ -54,13 +54,18 @@ echo "" >> "$TABLE_FILE"
 echo "| Country | Region / State | City | Sessions |" >> "$TABLE_FILE"
 echo "|---------|-----------------|------|----------|" >> "$TABLE_FILE"
 
-jq -r 'group_by(.country + .region + .city) 
-        | map({key: "\(.[] | .country),\(.[] | .region),\(.[] | .city)", count: length}) 
-        | .[]' "$LOG_FILE" | while IFS=, read -r line; do
-  COUNTRY=$(echo "$line" | cut -d '|' -f 1 | xargs)
-  REGION=$(echo "$line" | cut -d '|' -f 2 | xargs)
-  CITY=$(echo "$line" | cut -d '|' -f 3 | xargs)
-  COUNT=$(echo "$line" | cut -d '|' -f 4 | xargs)
+jq -c 'group_by(.country + .region + .city)
+        | map({
+            country: .[0].country,
+            region: .[0].region,
+            city: .[0].city,
+            count: length
+          })
+        | .[]' "$LOG_FILE" | while read -r row; do
+  COUNTRY=$(echo "$row" | jq -r '.country')
+  REGION=$(echo "$row" | jq -r '.region')
+  CITY=$(echo "$row" | jq -r '.city')
+  COUNT=$(echo "$row" | jq -r '.count')
   EMOJI=$(jq -r --arg code "$COUNTRY" '.[$code] // ""' "$COUNTRY_FLAGS_FILE")
   NAME=$(jq -r --arg code "$COUNTRY" '.[$code] // $code' "$COUNTRY_NAMES_FILE")
   echo "| $EMOJI $NAME | $REGION | $CITY | $COUNT |" >> "$TABLE_FILE"
@@ -73,21 +78,13 @@ echo "<!-- log tracker end -->" >> "$TABLE_FILE"
 # 4. Replace content between log tracker tags in-place
 # ------------------------------------------
 awk '
-  BEGIN { inside=0 }
-  /<!-- log tracker start -->/ {
-    print;
-    while ((getline line < "table.md") > 0) print line;
-    inside=1;
-    next;
-  }
-  /<!-- log tracker end -->/ {
-    inside=0;
-    next;
-  }
-  !inside { print }
-' README.md > new_readme.md
+  /<!-- log tracker start -->/ { found_start=1; next }
+  /<!-- log tracker end -->/ { found_end=1; next }
+  !found_start || found_end { print }
+' README.md > temp_readme.md
 
-mv new_readme.md README.md
+cat "$TABLE_FILE" >> temp_readme.md
+mv temp_readme.md README.md
 rm "$TABLE_FILE"
 
 # ------------------------------------------
