@@ -67,12 +67,12 @@ jq -r '.[] | "| \(.country) | \(.region) | \(.city) | \(.count) |"' "$LOG_FILE" 
 # ------------------------------------------
 # 4. Inject into README
 # ------------------------------------------
-awk '
+awk "
   BEGIN {p=1}
-  /^## 🌍 Where I'''ve Written Code/ {print; p=0; next}
+  /^## 🌍 Where I've Written Code/ {print; p=0; next}
   /^## / && !p {p=1}
   p
-' README.md > new_readme.md
+" README.md > new_readme.md
 cat "$TABLE_FILE" >> new_readme.md
 mv new_readme.md README.md
 rm "$TABLE_FILE"
