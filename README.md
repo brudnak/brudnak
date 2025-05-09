@@ -6,8 +6,6 @@
 
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
-<!-- log tracker start -->
-<!-- log tracker end -->
 
 ## 🏅 My Credly Badges
 
@@ -48,3 +46,5 @@
     <img src="https://img.shields.io/badge/-Bitbucket-0052CC?logo=bitbucket&logoColor=white&style=flat" />
   </a>
 </p>
+<!-- log tracker start -->
+<!-- log tracker end -->
