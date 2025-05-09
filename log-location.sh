@@ -55,6 +55,7 @@ country_flag() {
 # 3. Generate Markdown Table
 # ------------------------------------------
 echo "<!-- log tracker start -->" > "$TABLE_FILE"
+echo "" >> "$TABLE_FILE"
 echo "## 🌍 Where I've Written Code" >> "$TABLE_FILE"
 echo "" >> "$TABLE_FILE"
 echo "| Country | Region / State | City | Sessions |" >> "$TABLE_FILE"
@@ -72,27 +73,22 @@ jq -r 'group_by(.country + .region + .city)
   echo "| $EMOJI $NAME | $REGION | $CITY | $COUNT |" >> "$TABLE_FILE"
 done
 
+echo "" >> "$TABLE_FILE"
 echo "<!-- log tracker end -->" >> "$TABLE_FILE"
 
 # ------------------------------------------
 # 4. Replace content between log tracker tags in-place
 # ------------------------------------------
-awk -v newblock="$(cat $TABLE_FILE | sed 's/\//\\\//g' | tr '\n' '\\n')" '
-BEGIN { inblock=0 }
-{
-  if ($0 ~ /<!-- log tracker start -->/) {
-    print "<!-- log tracker start -->";
-    print "";
-    inblock=1;
-    while (getline < "table.md") print;
-    next
+awk '
+  BEGIN { inside=0 }
+  /<!-- log tracker start -->/ {
+    print; 
+    while ((getline line < "table.md") > 0) print line;
+    inside=1; next;
   }
-  if ($0 ~ /<!-- log tracker end -->/) {
-    inblock=0;
-    next
-  }
-  if (!inblock) print
-}' README.md > new_readme.md
+  /<!-- log tracker end -->/ { inside=0; next; }
+  !inside { print }
+' README.md > new_readme.md
 
 mv new_readme.md README.md
 rm "$TABLE_FILE"
