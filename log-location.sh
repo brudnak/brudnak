@@ -1,10 +1,9 @@
 #!/bin/bash
 
 # -----------------------------
-# 📍 Code Location Tracker (Session-Based)
+# 📍 Code Location Tracker (SQLite-based with rotating backups)
 # -----------------------------
-# Logs each coding session with full timestamp for future analysis (e.g. heatmaps)
-# Replaces "count" model with per-session entries
+# Logs each coding session into an SQLite database for better query and aggregation support
 
 set -e
 
@@ -27,22 +26,42 @@ if [ -z "$CITY" ] || [ -z "$REGION" ] || [ -z "$COUNTRY" ]; then
 fi
 
 # ------------------------------------------
-# 2. Append new session to JSON log
+# 2. Setup SQLite DB and insert session
 # ------------------------------------------
-LOG_FILE="location-log.json"
+DB_FILE="location-log.db"
+BACKUP_DIR="backups"
 TABLE_FILE="table.md"
 COUNTRY_NAMES_FILE="country-names.json"
 COUNTRY_FLAGS_FILE="country-flags.json"
 
-if [ ! -f "$LOG_FILE" ]; then
-  echo "[]" > "$LOG_FILE"
-fi
+mkdir -p "$BACKUP_DIR"
 
-jq --arg ts "$TIMESTAMP" \
-   --arg c "$COUNTRY" --arg r "$REGION" --arg city "$CITY" \
-   --arg loc "$LOC" --arg org "$ORG" --arg tz "$TIMEZONE" \
-   '. + [{"timestamp": $ts, "country": $c, "region": $r, "city": $city, "loc": $loc, "org": $org, "timezone": $tz}]' \
-   "$LOG_FILE" > tmp.json && mv tmp.json "$LOG_FILE"
+# Create table if it doesn't exist
+sqlite3 "$DB_FILE" <<EOF
+CREATE TABLE IF NOT EXISTS sessions (
+  timestamp TEXT,
+  country TEXT,
+  region TEXT,
+  city TEXT,
+  loc TEXT,
+  org TEXT,
+  timezone TEXT
+);
+EOF
+
+# Insert new session
+sqlite3 "$DB_FILE" <<EOF
+INSERT INTO sessions (timestamp, country, region, city, loc, org, timezone) VALUES (
+  '$TIMESTAMP', '$COUNTRY', '$REGION', '$CITY', '$LOC', '$ORG', '$TIMEZONE'
+);
+EOF
+
+# Create a timestamped backup
+BACKUP_PATH="$BACKUP_DIR/location-log-$TIMESTAMP.db"
+cp "$DB_FILE" "$BACKUP_PATH"
+
+# Keep only the 5 most recent backups
+ls -tp $BACKUP_DIR/location-log-*.db | grep -v '/$' | tail -n +6 | xargs -I {} rm -- {}
 
 # ------------------------------------------
 # 3. Generate Markdown Table
@@ -54,14 +73,11 @@ echo "" >> "$TABLE_FILE"
 echo "| Country | Region / State | City | Sessions |" >> "$TABLE_FILE"
 echo "|---------|-----------------|------|----------|" >> "$TABLE_FILE"
 
-jq -c 'group_by(.country + .region + .city)
-        | map({
-            country: .[0].country,
-            region: .[0].region,
-            city: .[0].city,
-            count: length
-          })
-        | .[]' "$LOG_FILE" | while read -r row; do
+sqlite3 -json "$DB_FILE" "
+  SELECT country, region, city, COUNT(*) as count
+  FROM sessions
+  GROUP BY country, region, city
+" | jq -c '.[]' | while read -r row; do
   COUNTRY=$(echo "$row" | jq -r '.country')
   REGION=$(echo "$row" | jq -r '.region')
   CITY=$(echo "$row" | jq -r '.city')
@@ -80,9 +96,8 @@ echo "<!-- log tracker end -->" >> "$TABLE_FILE"
 awk '
   BEGIN {in_block=0}
   /<!-- log tracker start -->/ {
-    print; 
-    while ((getline line < "table.md") > 0) print line;
     in_block=1;
+    while ((getline line < "table.md") > 0) print line;
     next;
   }
   /<!-- log tracker end -->/ {in_block=0; next}
@@ -93,11 +108,16 @@ mv temp_readme.md README.md
 rm "$TABLE_FILE"
 
 # ------------------------------------------
-# 5. Commit changes
+# 5. Commit changes as user
 # ------------------------------------------
-git config --global user.name "LocationBot"
-git config --global user.email "log@location.bot"
-git add "$LOG_FILE" README.md
+GIT_USER_NAME=$(git config --global user.name)
+GIT_USER_EMAIL=$(git config --global user.email)
 
-git diff --cached --quiet || git commit -m "📍 Updated code location log"
-git push
+git config --global user.name "$GIT_USER_NAME"
+git config --global user.email "$GIT_USER_EMAIL"
+git add "$DB_FILE" "$BACKUP_DIR" README.md
+
+if ! git diff --cached --quiet; then
+  git commit -m "📍 Updated code location log with rotated backup"
+  git push
+fi
