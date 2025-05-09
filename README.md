@@ -4,15 +4,22 @@
   </a>
 </p>
 
-# brudnak's Friend Space
-
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
+
+# brudnak's Friend Space
 
 | [@sgapanovich](https://github.com/sgapanovich)                                 | [@fillipehmeireles](https://github.com/fillipehmeireles)                               | [@Josh-Diamond](https://github.com/Josh-Diamond)                               | [@dasarinaidu](https://github.com/dasarinaidu)                               |
 |--------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | ![@sgapanovich](https://avatars.githubusercontent.com/sgapanovich?s=150&v=1)   | ![@fillipehmeireles](https://avatars.githubusercontent.com/fillipehmeireles?s=150&v=1) | ![@Josh-Diamond](https://avatars.githubusercontent.com/Josh-Diamond?s=150&v=1) | ![@dasarinaidu](https://avatars.githubusercontent.com/dasarinaidu?s=150&v=1) |
 | [@GoesToEleven](https://github.com/GoesToEleven)                               | [@hajimehoshi](https://github.com/hajimehoshi)                                         | [@jmcsagdc](https://github.com/jmcsagdc)                                       | [tom](https://wittenbrock.github.io/toms-myspace-page/)                      |
 | ![@GoesToEleven](https://avatars.githubusercontent.com/GoesToEleven?s=150&v=1) | ![@hajimehoshi](https://avatars.githubusercontent.com/hajimehoshi?s=150&v=1)           | ![@jmcsagdc](https://avatars.githubusercontent.com/jmcsagdc?s=150&v=1)         | ![tom](https://github.com/brudnak/brudnak/blob/main/img/tom.jpg)             |
+
+## 🏅 My Credly Badges
+
+|          <img src="/img/java-backend-web-development.png" width="110" alt="Badge 1"/>           | <img src="/img/gitlab-certified-git-associate.png" width="110" alt="Badge 2"/> |
+|:-----------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------:|
+|                                **Java Backend Web Development**                                 |                       **GitLab Certified Git Associate**                       |
+| [View on Credly](https://www.credly.com/badges/29e3f6a2-adf2-4831-aeab-b00f0124bc3f/public_url) |      [View on Credly](https://www.credly.com/badges/ffffe97d-d1fe-493f-84f5-a7bf1ef4534a/public_url)      |
 
 
 <p align="center">
