@@ -1,51 +1,88 @@
 #!/bin/bash
 
+# -----------------------------
+# 📍 Code Location Tracker (Enhanced)
+# -----------------------------
+# Logs your geolocation metadata (excluding IP) to your GitHub repo
+# Designed to run from a self-hosted GitHub Actions runner
+
 set -e
 
-IP=$(curl -s ifconfig.me)
-GEO=$(curl -s "https://ipinfo.io/$IP?token=$IPINFO_TOKEN")
+# ------------------------------------------
+# 1. Get geolocation data from ipinfo.io
+# ------------------------------------------
+GEO=$(curl -s "https://ipinfo.io?token=$IPINFO_TOKEN")
 
-COUNTRY=$(echo "$GEO" | jq -r '.country')
-REGION=$(echo "$GEO" | jq -r '.region')
 CITY=$(echo "$GEO" | jq -r '.city')
-DATE=$(date +%Y-%m-%d)
+REGION=$(echo "$GEO" | jq -r '.region')
+COUNTRY=$(echo "$GEO" | jq -r '.country')
+LOC=$(echo "$GEO" | jq -r '.loc')
+ORG=$(echo "$GEO" | jq -r '.org')
+TIMEZONE=$(echo "$GEO" | jq -r '.timezone')
+DATE=$(date +"%Y-%m-%d")
 
-if [ -z "$COUNTRY" ] || [ -z "$REGION" ]; then
-  echo "❌ Could not fetch geolocation."
+if [ -z "$CITY" ] || [ -z "$REGION" ] || [ -z "$COUNTRY" ]; then
+  echo "❌ Could not fetch complete geolocation."
   exit 1
 fi
 
-echo "📍 Location: $CITY, $REGION, $COUNTRY on $DATE"
+# ------------------------------------------
+# 2. Prepare data structure
+# ------------------------------------------
+LOG_FILE="location-log.json"
+TABLE_FILE="table.md"
 
-# Create file if it doesn't exist
-touch location-log.json
-if [ ! -s location-log.json ]; then
-  echo "[]" > location-log.json
+# Create JSON log file if it doesn't exist
+if [ ! -f "$LOG_FILE" ]; then
+  echo "[]" > "$LOG_FILE"
 fi
 
-# Check for existing entry
+# Check for existing location
 if jq -e --arg c "$COUNTRY" --arg r "$REGION" --arg city "$CITY" '
   map(select(.country == $c and .region == $r and .city == $city)) | length > 0
-' location-log.json > /dev/null; then
+' "$LOG_FILE" > /dev/null; then
   # Update count
   jq --arg c "$COUNTRY" --arg r "$REGION" --arg city "$CITY" '
     map(if .country == $c and .region == $r and .city == $city
         then .count += 1 else . end)
-  ' location-log.json > tmp.json && mv tmp.json location-log.json
+  ' "$LOG_FILE" > tmp.json && mv tmp.json "$LOG_FILE"
 else
-  # Add new location
-  jq --arg c "$COUNTRY" --arg r "$REGION" --arg city "$CITY" --arg date "$DATE" '
-    . + [{"country": $c, "region": $r, "city": $city, "date": $date, "count": 1}]
-  ' location-log.json > tmp.json && mv tmp.json location-log.json
+  # Add new entry
+  jq --arg c "$COUNTRY" --arg r "$REGION" --arg city "$CITY" \
+     --arg date "$DATE" --arg loc "$LOC" --arg org "$ORG" --arg tz "$TIMEZONE" '
+    . + [{"country": $c, "region": $r, "city": $city, "date": $date, "loc": $loc, "org": $org, "timezone": $tz, "count": 1}]
+  ' "$LOG_FILE" > tmp.json && mv tmp.json "$LOG_FILE"
 fi
 
-# Generate Markdown Table
-echo "## 🌍 Where I've Written Code" > table.md
-echo -e "| Country | Region / State | City | Times |\n|---------|-----------------|------|-------|" >> table.md
+# ------------------------------------------
+# 3. Generate Markdown Table
+# ------------------------------------------
+echo "## 🌍 Where I've Written Code" > "$TABLE_FILE"
+echo "" >> "$TABLE_FILE"
+echo "| Country | Region / State | City | Times |" >> "$TABLE_FILE"
+echo "|---------|-----------------|------|-------|" >> "$TABLE_FILE"
 
-jq -r '.[] | "| \(.country) | \(.region) | \(.city) | \(.count) |"' location-log.json >> table.md
+jq -r '.[] | "| \(.country) | \(.region) | \(.city) | \(.count) |"' "$LOG_FILE" >> "$TABLE_FILE"
 
-# Inject into README.md
-awk '/## 🌍 Where I'"'"'ve Written Code/ {exit} 1' README.md > new_readme.md
-cat table.md >> new_readme.md
+# ------------------------------------------
+# 4. Inject into README
+# ------------------------------------------
+awk '
+  BEGIN {p=1}
+  /^## 🌍 Where I'''ve Written Code/ {print; p=0; next}
+  /^## / && !p {p=1}
+  p
+' README.md > new_readme.md
+cat "$TABLE_FILE" >> new_readme.md
 mv new_readme.md README.md
+rm "$TABLE_FILE"
+
+# ------------------------------------------
+# 5. Commit changes
+# ------------------------------------------
+git config --global user.name "LocationBot"
+git config --global user.email "log@location.bot"
+git add "$LOG_FILE" README.md
+
+git diff --cached --quiet || git commit -m "📍 Updated code location log"
+git push
