@@ -16,10 +16,10 @@
 
 ## 🏅 My Credly Badges
 
-|          <img src="/img/java-backend-web-development.png" width="110" alt="Badge 1"/>           | <img src="/img/gitlab-certified-git-associate.png" width="110" alt="Badge 2"/> |
-|:-----------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------:|
-|                                **Java Backend Web Development**                                 |                       **GitLab Certified Git Associate**                       |
-| [View on Credly](https://www.credly.com/badges/29e3f6a2-adf2-4831-aeab-b00f0124bc3f/public_url) |      [View on Credly](https://www.credly.com/badges/ffffe97d-d1fe-493f-84f5-a7bf1ef4534a/public_url)      |
+|          <img src="/img/java-backend-web-development.png" width="110" alt="Badge 1"/>           |         <img src="/img/gitlab-certified-git-associate.png" width="110" alt="Badge 2"/>          |
+|:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|
+|                                **Java Backend Web Development**                                 |                               **GitLab Certified Git Associate**                                |
+| [View on Credly](https://www.credly.com/badges/29e3f6a2-adf2-4831-aeab-b00f0124bc3f/public_url) | [View on Credly](https://www.credly.com/badges/ffffe97d-d1fe-493f-84f5-a7bf1ef4534a/public_url) |
 
 
 <p align="center">
