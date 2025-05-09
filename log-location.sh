@@ -69,6 +69,7 @@ ls -tp $BACKUP_DIR/location-log-*.db | grep -v '/$' | tail -n +6 | xargs -I {} r
 echo "<!-- log tracker start -->" > "$TABLE_FILE"
 echo "" >> "$TABLE_FILE"
 echo "## 🌍 Where I've Written Code" >> "$TABLE_FILE"
+echo ">⚙️ Automated via GitHub Actions" >> "$TABLE_FILE"
 echo "" >> "$TABLE_FILE"
 echo "| Country | Region / State | City | Sessions |" >> "$TABLE_FILE"
 echo "|---------|-----------------|------|----------|" >> "$TABLE_FILE"

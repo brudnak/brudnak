@@ -9,6 +9,7 @@
 <!-- log tracker start -->
 
 ## 🌍 Where I've Written Code
+>⚙️ Automated via GitHub Actions
 
 | Country | Region / State | City | Sessions |
 |---------|-----------------|------|----------|
