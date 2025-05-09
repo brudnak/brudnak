@@ -6,8 +6,6 @@
 
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
-<!-- log tracker start -->
-<!-- log tracker end -->
 
 # $${\color{red}b}\color{orange}r\color{blue}u\color{green}d\color{violet}n\color{blue}a\color{red}k{\color{violet}'s} \space \color{blue}{Friend \space Space}$$
 
@@ -56,3 +54,12 @@
     <img src="https://img.shields.io/badge/-Bitbucket-0052CC?logo=bitbucket&logoColor=white&style=flat" />
   </a>
 </p>
+<!-- log tracker start -->
+
+## 🌍 Where I've Written Code
+
+| Country | Region / State | City | Sessions |
+|---------|-----------------|------|----------|
+| 🇨🇦 Canada | Quebec | Québec | 1 |
+
+<!-- log tracker end -->
