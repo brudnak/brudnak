@@ -46,9 +46,9 @@ jq --arg ts "$TIMESTAMP" \
 # Function to convert country code to emoji flag
 country_flag() {
   local code="$1"
-  for (( i=0; i<${#code}; i++ )); do
-    printf "\U$(printf '%x' $((0x1F1E6 + $(printf '%d' "'${code:$i:1}" ) - 65)))"
-  done
+  echo "$code" | awk '
+  function codepoint(c) { return sprintf("%c", 0x1F1E6 + index("ABCDEFGHIJKLMNOPQRSTUVWXYZ", c) - 1) }
+  { print codepoint(substr($0, 1, 1)) codepoint(substr($0, 2, 1)) }'
 }
 
 # ------------------------------------------
