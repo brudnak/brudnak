@@ -1,0 +1,30 @@
+name: Log Coding Location
+
+on:
+  workflow_dispatch:  # or use `push` to automate more
+  # push:
+  #   branches:
+  #     - main
+
+jobs:
+  log-location:
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: sudo apt-get update && sudo apt-get install -y jq curl
+
+      - name: Set up environment
+        run: echo "IPINFO_TOKEN=${{ secrets.IPINFO_TOKEN }}" >> $GITHUB_ENV
+
+      - name: Run location logger
+        run: bash log-location.sh
+
+      - name: Commit & push changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add README.md location-log.json
+          git commit -m "📍 Updated code location table"
+          git push
