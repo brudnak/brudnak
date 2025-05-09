@@ -6,8 +6,19 @@
 
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
-# $${\color{red}b}\color{orange}r\color{yellow}u\color{green}d\color{blue}n\color{lightblue}a\color{violet}k{\color{black}'s} \space \color{lightgreen}{Friend \space Space}$$
+<!-- Light mode heading -->
+<h1 align="center">
+  <span id="gh-light-mode-only">
+    $${\color{red}b}\color{orange}r\color{yellow}u\color{green}d\color{blue}n\color{violet}a\color{black}k{\color{gray}'s} \space \color{teal}{Friend \space Space}$$
+  </span>
+</h1>
 
+<!-- Dark mode heading -->
+<h1 align="center">
+  <span id="gh-dark-mode-only">
+    $${\color{lightgreen}b}\color{lightblue}r\color{cyan}u\color{yellow}d\color{orange}n\color{pink}a\color{white}k{\color{lightgray}'s} \space \color{lightyellow}{Friend \space Space}$$
+  </span>
+</h1>
 
 | [@sgapanovich](https://github.com/sgapanovich)                                 | [@fillipehmeireles](https://github.com/fillipehmeireles)                               | [@Josh-Diamond](https://github.com/Josh-Diamond)                               | [@dasarinaidu](https://github.com/dasarinaidu)                               |
 |--------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------|
