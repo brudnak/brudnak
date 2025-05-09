@@ -6,7 +6,9 @@
 
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
-## 🌍 Where I've Written Code
+<!-- log tracker start -->
+<!-- log tracker end -->
+
 ## 🏅 My Credly Badges
 
 |          <img src="/img/java-backend-web-development.png" width="110" alt="Badge 1"/>           |         <img src="/img/gitlab-certified-git-associate.png" width="110" alt="Badge 2"/>          |
@@ -46,8 +48,3 @@
     <img src="https://img.shields.io/badge/-Bitbucket-0052CC?logo=bitbucket&logoColor=white&style=flat" />
   </a>
 </p>
-## 🌍 Where I've Written Code
-
-| Country | Region / State | City | Times |
-|---------|-----------------|------|-------|
-| CA | Quebec | L'Ange-Gardien | 1 |

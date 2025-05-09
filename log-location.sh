@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # -----------------------------
-# 📍 Code Location Tracker (Enhanced)
+# 📍 Code Location Tracker (Session-Based)
 # -----------------------------
-# Logs your geolocation metadata (excluding IP) to your GitHub repo
-# Designed to run from a self-hosted GitHub Actions runner
+# Logs each coding session with full timestamp for future analysis (e.g. heatmaps)
+# Replaces "count" model with per-session entries
 
 set -e
 
@@ -19,7 +19,7 @@ COUNTRY=$(echo "$GEO" | jq -r '.country')
 LOC=$(echo "$GEO" | jq -r '.loc')
 ORG=$(echo "$GEO" | jq -r '.org')
 TIMEZONE=$(echo "$GEO" | jq -r '.timezone')
-DATE=$(date +"%Y-%m-%d")
+TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
 if [ -z "$CITY" ] || [ -z "$REGION" ] || [ -z "$COUNTRY" ]; then
   echo "❌ Could not fetch complete geolocation."
@@ -27,55 +27,47 @@ if [ -z "$CITY" ] || [ -z "$REGION" ] || [ -z "$COUNTRY" ]; then
 fi
 
 # ------------------------------------------
-# 2. Prepare data structure
+# 2. Append new session to JSON log
 # ------------------------------------------
 LOG_FILE="location-log.json"
 TABLE_FILE="table.md"
 
-# Create JSON log file if it doesn't exist
 if [ ! -f "$LOG_FILE" ]; then
   echo "[]" > "$LOG_FILE"
 fi
 
-# Check for existing location
-if jq -e --arg c "$COUNTRY" --arg r "$REGION" --arg city "$CITY" '
-  map(select(.country == $c and .region == $r and .city == $city)) | length > 0
-' "$LOG_FILE" > /dev/null; then
-  # Update count
-  jq --arg c "$COUNTRY" --arg r "$REGION" --arg city "$CITY" '
-    map(if .country == $c and .region == $r and .city == $city
-        then .count += 1 else . end)
-  ' "$LOG_FILE" > tmp.json && mv tmp.json "$LOG_FILE"
-else
-  # Add new entry
-  jq --arg c "$COUNTRY" --arg r "$REGION" --arg city "$CITY" \
-     --arg date "$DATE" --arg loc "$LOC" --arg org "$ORG" --arg tz "$TIMEZONE" '
-    . + [{"country": $c, "region": $r, "city": $city, "date": $date, "loc": $loc, "org": $org, "timezone": $tz, "count": 1}]
-  ' "$LOG_FILE" > tmp.json && mv tmp.json "$LOG_FILE"
-fi
+jq --arg ts "$TIMESTAMP" \
+   --arg c "$COUNTRY" --arg r "$REGION" --arg city "$CITY" \
+   --arg loc "$LOC" --arg org "$ORG" --arg tz "$TIMEZONE" \
+   '. + [{"timestamp": $ts, "country": $c, "region": $r, "city": $city, "loc": $loc, "org": $org, "timezone": $tz}]' \
+   "$LOG_FILE" > tmp.json && mv tmp.json "$LOG_FILE"
 
 # ------------------------------------------
 # 3. Generate Markdown Table
 # ------------------------------------------
-echo "## 🌍 Where I've Written Code" > "$TABLE_FILE"
+echo "<!-- log tracker start -->" > "$TABLE_FILE"
+echo "## 🌍 Where I've Written Code" >> "$TABLE_FILE"
 echo "" >> "$TABLE_FILE"
-echo "| Country | Region / State | City | Times |" >> "$TABLE_FILE"
-echo "|---------|-----------------|------|-------|" >> "$TABLE_FILE"
+echo "| Country | Region / State | City | Sessions |" >> "$TABLE_FILE"
+echo "|---------|-----------------|------|----------|" >> "$TABLE_FILE"
 
-jq -r '.[] | "| \(.country) | \(.region) | \(.city) | \(.count) |"' "$LOG_FILE" >> "$TABLE_FILE"
+jq -r 'group_by(.country + .region + .city) 
+        | map({key: "\(.[] | .country),\(.[] | .region),\(.[] | .city)", count: length}) 
+        | .[] 
+        | "| \(.key | split(",") | .[0]) | \(.key | split(",") | .[1]) | \(.key | split(",") | .[2]) | \(.count) |"' "$LOG_FILE" >> "$TABLE_FILE"
+
+echo "<!-- log tracker end -->" >> "$TABLE_FILE"
 
 # ------------------------------------------
-# 4. Inject into README
+# 4. Inject between log tracker tags in README
 # ------------------------------------------
-awk "
-  BEGIN {p=1}
-  /^## 🌍 Where I've Written Code/ {print; p=0; next}
-  /^## / && !p {p=1}
-  p
-" README.md > new_readme.md
-cat "$TABLE_FILE" >> new_readme.md
+sed -i.bak -e '/<!-- log tracker start -->/,/<!-- log tracker end -->/d' README.md
+awk '{print} /<!-- log tracker start -->/ {exit}' "$TABLE_FILE" > temp_top.md
+awk 'BEGIN{found=0} {if($0 ~ /<!-- log tracker end -->/) found=1; if(found) print}' "$TABLE_FILE" > temp_bottom.md
+awk 'FNR==NR { print; next } 1' temp_top.md temp_bottom.md > temp_combined.md
+awk '1' README.md temp_combined.md > new_readme.md
 mv new_readme.md README.md
-rm "$TABLE_FILE"
+rm "$TABLE_FILE" temp_top.md temp_bottom.md README.md.bak
 
 # ------------------------------------------
 # 5. Commit changes
