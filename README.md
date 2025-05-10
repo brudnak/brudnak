@@ -14,6 +14,7 @@
 | Country | Region / State | City | Sessions |
 |---------|-----------------|------|----------|
 | 🇨🇦 Canada | Quebec | L'Ange-Gardien | 1 |
+| 🇨🇦 Canada | Quebec | Québec | 1 |
 
 <!-- log tracker end -->
 
