@@ -13,7 +13,7 @@
 
 | Country | Region / State | City | Sessions |
 |---------|-----------------|------|----------|
-| 🇨🇦 Canada | Quebec | Québec | 1 |
+| 🇨🇦 Canada | Quebec | Québec | 2 |
 
 <!-- log tracker end -->
 
