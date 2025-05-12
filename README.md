@@ -8,7 +8,7 @@
 
 <!-- log tracker start -->
 
-## 41924{\color{teal}Global} \color{orange}Commits41924
+## <span style="color:teal;">Global</span> <span style="color:orange;">Commits</span>
 >⚙️ Automated via GitHub Actions
 
 | Country | Region / State | City | Sessions |
