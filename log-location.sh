@@ -74,7 +74,7 @@ find "$BACKUP_DIR" -name "location-log-*.db" -type f -printf "%T@ %p\n" | sort -
 # ------------------------------------------
 echo "<!-- log tracker start -->" > "$TABLE_FILE"
 echo "" >> "$TABLE_FILE"
-echo "## 🌍 Where I've Written Code" >> "$TABLE_FILE"
+echo "## $${\color{teal}\text{Global}} \, {\color{orange}\text{Commits}}$$" >> "$TABLE_FILE"
 echo ">⚙️ Automated via GitHub Actions" >> "$TABLE_FILE"
 echo "" >> "$TABLE_FILE"
 echo "| Country | Region / State | City | Sessions |" >> "$TABLE_FILE"

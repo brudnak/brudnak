@@ -8,7 +8,7 @@
 
 <!-- log tracker start -->
 
-## 🌍 Where I've Written Code
+## $${\color{teal}\text{Global}} \, {\color{orange}\text{Commits}}$$  
 >⚙️ Automated via GitHub Actions
 
 | Country | Region / State | City | Sessions |
