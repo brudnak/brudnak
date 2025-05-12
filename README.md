@@ -8,7 +8,7 @@
 
 <!-- log tracker start -->
 
-## $${\color{teal}\text{Global}} \, {\color{orange}\text{Commits}}$$  
+## $${\color{teal}Global} \color{orange}Commits$$ 
 >⚙️ Automated via GitHub Actions
 
 | Country | Region / State | City | Sessions |
