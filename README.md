@@ -8,13 +8,13 @@
 
 <!-- log tracker start -->
 
-## <span style="color:teal;">Global</span> <span style="color:orange;">Commits</span>
+## $${\color{teal}Global} \color{orange}Commits$$
 >⚙️ Automated via GitHub Actions
 
 | Country | Region / State | City | Sessions |
 |---------|-----------------|------|----------|
 | 🇨🇦 Canada | Quebec | L'Ange-Gardien | 1 |
-| 🇨🇦 Canada | Quebec | Québec | 2 |
+| 🇨🇦 Canada | Quebec | Québec | 3 |
 
 <!-- log tracker end -->
 
