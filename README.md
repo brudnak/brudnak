@@ -26,8 +26,7 @@
 | [@GoesToEleven](https://github.com/GoesToEleven)                               | [@hajimehoshi](https://github.com/hajimehoshi)                                         | [@jmcsagdc](https://github.com/jmcsagdc)                                       | [tom](https://wittenbrock.github.io/toms-myspace-page/)                      |
 | ![@GoesToEleven](https://avatars.githubusercontent.com/GoesToEleven?s=150&v=1) | ![@hajimehoshi](https://avatars.githubusercontent.com/hajimehoshi?s=150&v=1)           | ![@jmcsagdc](https://avatars.githubusercontent.com/jmcsagdc?s=150&v=1)         | ![tom](https://github.com/brudnak/brudnak/blob/main/img/tom.jpg)             |
 
-## $${\color{limegreen}{🛡️\space Achievement}}\color{orange}{\space Unlocked!}$$  
-
+## 🛡️ $${\color{limegreen}Achievement} \color{orange}Unlocked!$$  
 |          <img src="/img/java-backend-web-development.png" width="110" alt="Badge 1"/>           |         <img src="/img/gitlab-certified-git-associate.png" width="110" alt="Badge 2"/>          |
 |:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|
 |                                **Java Backend Web Development**                                 |                               **GitLab Certified Git Associate**                                |
