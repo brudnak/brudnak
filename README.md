@@ -27,7 +27,6 @@
 | ![@GoesToEleven](https://avatars.githubusercontent.com/GoesToEleven?s=150&v=1) | ![@hajimehoshi](https://avatars.githubusercontent.com/hajimehoshi?s=150&v=1)           | ![@jmcsagdc](https://avatars.githubusercontent.com/jmcsagdc?s=150&v=1)         | ![tom](https://github.com/brudnak/brudnak/blob/main/img/tom.jpg)             |
 
 ## $${\color{limegreen}{🛡️\space Achievement}}\color{orange}{\space Unlocked!}$$  
-### $${\color{goldenrod}{Certified \space via:}} \color{cyan}{Credly}$$
 
 |          <img src="/img/java-backend-web-development.png" width="110" alt="Badge 1"/>           |         <img src="/img/gitlab-certified-git-associate.png" width="110" alt="Badge 2"/>          |
 |:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|
