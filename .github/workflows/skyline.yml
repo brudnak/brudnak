@@ -2,7 +2,7 @@ name: Daily GitHub Skyline
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 0 * * *'  # Daily at midnight UTC
   workflow_dispatch:
 
 jobs:
@@ -13,12 +13,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install GitHub CLI
+      - name: Install GitHub CLI manually (bypass APT)
         run: |
-          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
-          sudo apt-add-repository https://cli.github.com/packages
-          sudo apt update
-          sudo apt install gh -y
+          curl -fsSL https://github.com/cli/cli/releases/latest/download/gh_2.47.0_linux_amd64.tar.gz -o gh.tar.gz
+          tar -xzf gh.tar.gz
+          sudo cp gh_*/bin/gh /usr/local/bin
 
       - name: Authenticate GitHub CLI
         env:
@@ -28,7 +27,7 @@ jobs:
       - name: Install gh-skyline extension
         run: gh extension install github/gh-skyline
 
-      - name: Generate STL for full contribution history
+      - name: Generate full GitHub skyline STL
         run: |
           gh skyline --full --output skyline-full.stl
 
