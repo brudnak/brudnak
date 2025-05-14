@@ -2,6 +2,7 @@ import bpy
 import sys
 import os
 import math
+from mathutils import Vector
 
 # Get CLI args
 argv = sys.argv[sys.argv.index("--") + 1:]
@@ -27,6 +28,17 @@ dims = obj.dimensions
 max_dim = max(dims)
 cam_dist = max_dim * 1.3  # 🎯 Tighter zoom
 
+# Compute front-facing target for camera (e.g., where the name/date are)
+bbox_corners = [obj.matrix_world @ Vector(corner) for corner in obj.bound_box]
+min_x = min(corner.x for corner in bbox_corners)
+min_y = min(corner.y for corner in bbox_corners)
+min_z = min(corner.z for corner in bbox_corners)
+
+# Place the tracking target slightly in front of the object
+target_location = Vector((min_x, min_y, min_z)) + Vector((max_dim * 0.4, 0, 0))
+bpy.ops.object.empty_add(type='PLAIN_AXES', location=target_location)
+target = bpy.context.object
+
 # Orbit-style camera setup
 elevation_deg = 20  # Lower = more head-on
 azimuth_deg = 135   # Diagonal view
@@ -41,7 +53,7 @@ z = cam_dist * math.sin(elevation)
 bpy.ops.object.camera_add(location=(x, y, z))
 camera = bpy.context.object
 track = camera.constraints.new(type='TRACK_TO')
-track.target = obj
+track.target = target  # 👈 Track the Empty, not the object center
 track.track_axis = 'TRACK_NEGATIVE_Z'
 track.up_axis = 'UP_Y'
 bpy.context.scene.camera = camera
