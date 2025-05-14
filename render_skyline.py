@@ -47,6 +47,7 @@ scene.cycles.use_denoising = False
 scene.render.resolution_x = 1024
 scene.render.resolution_y = 768
 scene.render.image_settings.file_format = 'PNG'
+scene.render.use_ambient_occlusion = True
 
 # World setup
 if not scene.world:
@@ -83,14 +84,14 @@ def render_with_theme(bg_rgba, obj_rgb, filename):
 
 # LIGHT MODE
 render_with_theme(
-    bg_rgba=(1, 1, 1, 1),                 # white background
-    obj_rgb=(0.12, 0.12, 0.12),           # very dark gray
+    bg_rgba=(1, 1, 1, 1),
+    obj_rgb=(0.12, 0.12, 0.12),
     filename="skyline-light.png"
 )
 
 # DARK MODE
 render_with_theme(
-    bg_rgba=(0, 0, 0, 1),                 # black background
-    obj_rgb=(0.0, 0.5, 1.0),              # dark blue
+    bg_rgba=(0.05, 0.05, 0.05, 1),
+    obj_rgb=(0.0, 0.5, 1.0),
     filename="skyline-dark.png"
 )
