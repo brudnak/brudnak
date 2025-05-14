@@ -28,14 +28,12 @@ dims = obj.dimensions
 max_dim = max(dims)
 cam_dist = max_dim * 1.3  # 🎯 Tighter zoom
 
-# Compute front-facing target for camera (e.g., where the name/date are)
-bbox_corners = [obj.matrix_world @ Vector(corner) for corner in obj.bound_box]
-min_x = min(corner.x for corner in bbox_corners)
-min_y = min(corner.y for corner in bbox_corners)
-min_z = min(corner.z for corner in bbox_corners)
+# Focus camera more toward the front face (assuming it's along -Y)
+# This will help aim at the engraved name/date
+obj_center = obj.location
+target_location = obj_center + Vector((0, -max_dim * 0.5, 0))
 
-# Place the tracking target slightly in front of the object
-target_location = Vector((min_x, min_y, min_z)) + Vector((max_dim * 0.4, 0, 0))
+# Create an Empty object as a tracking target at the front
 bpy.ops.object.empty_add(type='PLAIN_AXES', location=target_location)
 target = bpy.context.object
 
@@ -53,7 +51,7 @@ z = cam_dist * math.sin(elevation)
 bpy.ops.object.camera_add(location=(x, y, z))
 camera = bpy.context.object
 track = camera.constraints.new(type='TRACK_TO')
-track.target = target  # 👈 Track the Empty, not the object center
+track.target = target  # 👈 Focus on the empty at the front
 track.track_axis = 'TRACK_NEGATIVE_Z'
 track.up_axis = 'UP_Y'
 bpy.context.scene.camera = camera
