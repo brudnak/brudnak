@@ -36,7 +36,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh skyline --full --output skyline-full.stl
+          gh skyline --full --user brudnak --output skyline-full.stl
 
       - name: Commit and push STL
         run: |
