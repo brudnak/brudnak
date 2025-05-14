@@ -43,11 +43,15 @@ jobs:
           sudo apt update
           sudo apt install blender -y
 
+      - name: Remove old PNGs to force fresh render
+        run: |
+          rm -f skyline-dark.png skyline-light.png
+
       - name: Render light/dark skyline images
         run: |
           blender -b -P render_skyline.py -- skyline-full.stl
 
-      - name: Touch image files to ensure file system notices change
+      - name: Touch files to guarantee Git picks them up
         run: |
           touch skyline-dark.png skyline-light.png
 
