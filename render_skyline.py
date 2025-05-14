@@ -31,7 +31,7 @@ cam_dist = max_dim * 1.3  # 🎯 Tighter zoom
 # Focus camera more toward the front face (assuming it's along -Y)
 # This will help aim at the engraved name/date
 obj_center = obj.location
-target_location = obj_center + Vector((0, -max_dim * 0.5, 0))
+target_location = obj_center + Vector((0, max_dim * 0.3, 0))
 
 # Create an Empty object as a tracking target at the front
 bpy.ops.object.empty_add(type='PLAIN_AXES', location=target_location)
