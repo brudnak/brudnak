@@ -26,25 +26,25 @@ obj.scale = (1.1, 1.1, 1.1)
 # Auto framing
 dims = obj.dimensions
 max_dim = max(dims)
-cam_dist = max_dim * 1.3  # 🎯 Tighter zoom
+cam_dist = max_dim * 1.6  # 🔍 Zoom out a bit more
 
-# Position target near the center/back of the skyline
+# Position target near the back-center of the skyline (looking toward front)
 obj_center = obj.location
 target_location = obj_center + Vector((0, max_dim * 0.3, 0))
 
-# Create Empty target for camera to look at
+# Create Empty target object for camera to look at
 bpy.ops.object.empty_add(type='PLAIN_AXES', location=target_location)
 target = bpy.context.object
 
-# Orbit-style camera setup: in front of the engraved face, looking into skyline
-elevation_deg = 20  # Slightly above for depth
-azimuth_deg = 135   # Side angle
+# Orbit-style camera setup: placed in front of engraved face, aimed through skyline
+elevation_deg = 20  # Slight top-down
+azimuth_deg = 45    # 🔁 Shifted to front-right to capture front plate
 
 elevation = math.radians(elevation_deg)
 azimuth = math.radians(azimuth_deg)
 
 x = cam_dist * math.cos(elevation) * math.cos(azimuth)
-y = cam_dist * math.cos(elevation) * math.sin(azimuth) - max_dim * 1.2  # 👈 Shift forward (front)
+y = cam_dist * math.cos(elevation) * math.sin(azimuth)
 z = cam_dist * math.sin(elevation)
 
 bpy.ops.object.camera_add(location=(x, y, z))
