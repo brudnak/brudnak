@@ -28,7 +28,7 @@ max_dim = max(dims)
 cam_dist = max_dim * 1.3  # 🎯 Tighter zoom
 
 # Camera setup
-bpy.ops.object.camera_add(location=(cam_dist, -cam_dist, cam_dist))
+bpy.ops.object.camera_add(location=(cam_dist, -cam_dist, cam_dist * 0.6))
 camera = bpy.context.object
 track = camera.constraints.new(type='TRACK_TO')
 track.target = obj
