@@ -8,7 +8,14 @@
 
 ### 🏙️ Full GitHub Skyline
 
-[View STL file on GitHub](./skyline-full.stl)
+<p align="center">
+  <img src="./skyline-dark.png#gh-dark-mode-only" />
+</p>
+<p align="center">
+  <img src="./skyline-light.png#gh-light-mode-only" />
+</p>
+
+[🔗 View 3D STL Model on GitHub](./skyline-full.stl)
 
 <!-- log tracker start -->
 

@@ -1,4 +1,4 @@
-name: Daily GitHub Skyline
+name: Daily GitHub Skyline with Light/Dark Images
 
 on:
   schedule:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  generate-skyline:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
@@ -32,16 +32,25 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh extension install github/gh-skyline
 
-      - name: Generate full GitHub skyline STL
+      - name: Generate STL
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           gh skyline --full --user brudnak --output skyline-full.stl
 
-      - name: Commit and push STL
+      - name: Install Blender
+        run: |
+          sudo apt update
+          sudo apt install blender -y
+
+      - name: Render STL to PNG (light and dark)
+        run: |
+          blender -b -P render_skyline.py -- skyline-full.stl
+
+      - name: Commit STL and PNGs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add skyline-full.stl
-          git commit -m "🏙️ Update full skyline STL - $(date -u)" || echo "No changes to commit"
+          git add skyline-full.stl skyline-light.png skyline-dark.png
+          git commit -m "Auto-update skyline STL and previews - $(date -u)" || echo "No changes"
           git push
