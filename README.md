@@ -6,7 +6,9 @@
 
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
-### 🏙️ Full GitHub Skyline
+## $${\color{deepskyblue}GitHub} \color{orange}Skyline$$  
+> 🛠️ auto-updated daily via GitHub Actions  
+> ![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
 
 <p align="center">
   <img src="./skyline-dark.png#gh-dark-mode-only" />
@@ -15,7 +17,9 @@
   <img src="./skyline-light.png#gh-light-mode-only" />
 </p>
 
-[🔗 View 3D STL Model on GitHub](./skyline-full.stl)
+<p align="center">
+  <a href="./skyline-full.stl">🔗 View 3D STL Model on GitHub</a>
+</p>
 
 <!-- log tracker start -->
 
@@ -37,7 +41,7 @@
 | [@GoesToEleven](https://github.com/GoesToEleven)                               | [@hajimehoshi](https://github.com/hajimehoshi)                                         | [@jmcsagdc](https://github.com/jmcsagdc)                                       | [tom](https://wittenbrock.github.io/toms-myspace-page/)                      |
 | ![@GoesToEleven](https://avatars.githubusercontent.com/GoesToEleven?s=150&v=1) | ![@hajimehoshi](https://avatars.githubusercontent.com/hajimehoshi?s=150&v=1)           | ![@jmcsagdc](https://avatars.githubusercontent.com/jmcsagdc?s=150&v=1)         | ![tom](https://github.com/brudnak/brudnak/blob/main/img/tom.jpg)             |
 
-## 🛡️ $${\color{limegreen}Achievement} \color{orange}Unlocked!$$  
+## $${\color{limegreen}Achievement} \color{orange}Unlocked!$$  
 |          <img src="/img/java-backend-web-development.png" width="110" alt="Badge 1"/>           |         <img src="/img/gitlab-certified-git-associate.png" width="110" alt="Badge 2"/>          |
 |:-----------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|
 |                                **Java Backend Web Development**                                 |                               **GitLab Certified Git Associate**                                |
