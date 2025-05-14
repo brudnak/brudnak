@@ -7,8 +7,7 @@
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
 ## $${\color{deepskyblue}GitHub} \color{orange}Skyline$$  
-> 🛠️ auto-updated daily via GitHub Actions  
-> ![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
+![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
 
 <p align="center">
   <img src="./skyline-dark.png#gh-dark-mode-only" />
@@ -24,7 +23,7 @@
 <!-- log tracker start -->
 
 ## $${\color{teal}Global} \color{orange}Commits$$
->⚙️ Automated via GitHub Actions
+![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
 
 | Country | Region / State | City | Sessions |
 |---------|-----------------|------|----------|
