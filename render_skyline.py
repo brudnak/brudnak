@@ -28,33 +28,25 @@ dims = obj.dimensions
 max_dim = max(dims)
 cam_dist = max_dim * 1.5
 
-obj_center = obj.location
+# Target at model center for symmetry
 target_location = obj.location
-
-# Create Empty tracking target
 bpy.ops.object.empty_add(type='PLAIN_AXES', location=target_location)
 target = bpy.context.object
 
-elevation_deg = 10
-azimuth_deg = 270
-
-elevation = math.radians(elevation_deg)
-azimuth = math.radians(azimuth_deg)
-
-x = cam_dist * math.cos(elevation) * math.cos(azimuth)
-y = cam_dist * math.cos(elevation) * math.sin(azimuth)
-z = cam_dist * math.sin(elevation)
-
-bpy.ops.object.camera_add(location=(x, y, z))
+# Camera setup — straight-on, centered, slightly above for depth
+camera_location = obj.location + Vector((0, -cam_dist, cam_dist * 0.15))
+bpy.ops.object.camera_add(location=camera_location)
 camera = bpy.context.object
+camera.data.lens = 35  # standard focal length (adjust if needed)
+
 track = camera.constraints.new(type='TRACK_TO')
 track.target = target
 track.track_axis = 'TRACK_NEGATIVE_Z'
 track.up_axis = 'UP_Y'
 bpy.context.scene.camera = camera
 
-# Lighting
-bpy.ops.object.light_add(type='SUN', location=(x, y, z + cam_dist * 0.5))
+# Lighting from above/front
+bpy.ops.object.light_add(type='SUN', location=(0, -cam_dist, cam_dist * 1.5))
 
 # Render settings
 scene = bpy.context.scene
