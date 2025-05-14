@@ -19,30 +19,31 @@ obj.name = "Skyline"
 bpy.ops.object.origin_set(type='ORIGIN_GEOMETRY', center='BOUNDS')
 bpy.context.view_layer.objects.active = obj
 
-# Slight scale adjustment to zoom in
+# Slight scale up for emphasis
 obj.scale = (1.1, 1.1, 1.1)
 
-# Create material for dark and light modes
-def make_material(name, color_rgb):
-    mat = bpy.data.materials.new(name)
-    mat.use_nodes = True
-    bsdf = mat.node_tree.nodes.get("Principled BSDF")
-    bsdf.inputs["Base Color"].default_value = (*color_rgb, 1)
-    bsdf.inputs["Roughness"].default_value = 0.4
-    return mat
+# Get object bounds for framing
+dims = obj.dimensions
+center = obj.location
+max_dim = max(dims)
+cam_dist = max_dim * 2.2
 
-# Assign material slot
-obj.data.materials.append(make_material("SkylineBase", (0.6, 0.6, 0.6)))  # Light mode default
-
-# Add camera at GitHub-style angle
-bpy.ops.object.camera_add(location=(100, -100, 80), rotation=(math.radians(60), 0, math.radians(45)))
+# Add camera with constraint to look at the model
+bpy.ops.object.camera_add(location=(cam_dist, -cam_dist, cam_dist))
 camera = bpy.context.object
+
+# Make camera look at object
+track = camera.constraints.new(type='TRACK_TO')
+track.target = obj
+track.track_axis = 'TRACK_NEGATIVE_Z'
+track.up_axis = 'UP_Y'
+
 bpy.context.scene.camera = camera
 
 # Add lighting
-bpy.ops.object.light_add(type='SUN', location=(30, -60, 100))
+bpy.ops.object.light_add(type='SUN', location=(cam_dist, -cam_dist, cam_dist * 1.5))
 
-# Render setup
+# Render settings
 scene = bpy.context.scene
 scene.render.engine = 'CYCLES'
 scene.cycles.device = 'CPU'
@@ -51,37 +52,69 @@ scene.render.resolution_x = 1024
 scene.render.resolution_y = 768
 scene.render.image_settings.file_format = 'PNG'
 
-# Ensure world exists
+# World setup
 if not scene.world:
     scene.world = bpy.data.worlds.new("SkylineWorld")
 scene.world.use_nodes = True
-bg_node = scene.world.node_tree.nodes.get("Background")
-if not bg_node:
-    bg_node = scene.world.node_tree.nodes.new("ShaderNodeBackground")
+bg_node = scene.world.node_tree.nodes.get("Background") or scene.world.node_tree.nodes.new("ShaderNodeBackground")
 
-# Render pass for each theme
-def render_with_theme(color_rgba, object_color_rgb, filename):
+# Material generator
+def make_material(name, base_rgb, neon=False):
+    mat = bpy.data.materials.new(name)
+    mat.use_nodes = True
+    nodes = mat.node_tree.nodes
+    links = mat.node_tree.links
+
+    # Clear old nodes
+    for node in nodes:
+        nodes.remove(node)
+
+    output = nodes.new(type='ShaderNodeOutputMaterial')
+
+    if neon:
+        # Emission material
+        emission = nodes.new(type='ShaderNodeEmission')
+        emission.inputs[0].default_value = (*base_rgb, 1)
+        emission.inputs[1].default_value = 3.0  # strength
+
+        links.new(emission.outputs[0], output.inputs[0])
+    else:
+        # Basic principled BSDF
+        bsdf = nodes.new(type='ShaderNodeBsdfPrincipled')
+        bsdf.inputs["Base Color"].default_value = (*base_rgb, 1)
+        bsdf.inputs["Roughness"].default_value = 0.4
+
+        links.new(bsdf.outputs[0], output.inputs[0])
+
+    return mat
+
+# Assign initial placeholder
+obj.data.materials.append(make_material("SkylineGray", (0.5, 0.5, 0.5)))
+
+# Render with theme
+def render_with_theme(bg_rgba, obj_rgb, filename, neon=False):
     # Set background
-    bg_node.inputs[0].default_value = color_rgba
+    bg_node.inputs[0].default_value = bg_rgba
 
-    # Set object color
-    mat = make_material("SkylineTheme", object_color_rgb)
+    # Assign styled material
+    mat = make_material("SkylineRender", obj_rgb, neon=neon)
     obj.data.materials[0] = mat
 
     # Output path
     scene.render.filepath = os.path.abspath(filename)
     bpy.ops.render.render(write_still=True)
 
-# 🔳 Light mode: white bg, dark gray skyline
+# 🔳 Light mode
 render_with_theme(
-    color_rgba=(1, 1, 1, 1),
-    object_color_rgb=(0.2, 0.2, 0.2),
+    bg_rgba=(1, 1, 1, 1),
+    obj_rgb=(0.25, 0.25, 0.25),
     filename="skyline-light.png"
 )
 
-# 🟦 Dark mode: dark bg, neon blue skyline
+# 🟦 Dark mode – NEON!
 render_with_theme(
-    color_rgba=(0.05, 0.05, 0.05, 1),
-    object_color_rgb=(0.0, 0.7, 1.0),
-    filename="skyline-dark.png"
+    bg_rgba=(0.05, 0.05, 0.05, 1),
+    obj_rgb=(0.0, 1.0, 1.0),
+    filename="skyline-dark.png",
+    neon=True
 )
