@@ -28,30 +28,29 @@ dims = obj.dimensions
 max_dim = max(dims)
 cam_dist = max_dim * 1.3  # 🎯 Tighter zoom
 
-# Focus camera more toward the front face (assuming it's along -Y)
-# This will help aim at the engraved name/date
+# Position target near the center/back of the skyline
 obj_center = obj.location
 target_location = obj_center + Vector((0, max_dim * 0.3, 0))
 
-# Create an Empty object as a tracking target at the front
+# Create Empty target for camera to look at
 bpy.ops.object.empty_add(type='PLAIN_AXES', location=target_location)
 target = bpy.context.object
 
-# Orbit-style camera setup
-elevation_deg = 20  # Lower = more head-on
-azimuth_deg = 135   # Diagonal view
+# Orbit-style camera setup: in front of the engraved face, looking into skyline
+elevation_deg = 20  # Slightly above for depth
+azimuth_deg = 135   # Side angle
 
 elevation = math.radians(elevation_deg)
 azimuth = math.radians(azimuth_deg)
 
 x = cam_dist * math.cos(elevation) * math.cos(azimuth)
-y = cam_dist * math.cos(elevation) * math.sin(azimuth)
+y = cam_dist * math.cos(elevation) * math.sin(azimuth) - max_dim * 1.2  # 👈 Shift forward (front)
 z = cam_dist * math.sin(elevation)
 
 bpy.ops.object.camera_add(location=(x, y, z))
 camera = bpy.context.object
 track = camera.constraints.new(type='TRACK_TO')
-track.target = target  # 👈 Focus on the empty at the front
+track.target = target
 track.track_axis = 'TRACK_NEGATIVE_Z'
 track.up_axis = 'UP_Y'
 bpy.context.scene.camera = camera
