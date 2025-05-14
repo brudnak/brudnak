@@ -1,4 +1,4 @@
-name: Daily GitHub Skyline with Preview Images
+name: Daily GitHub Skyline
 
 on:
   schedule:
