@@ -27,8 +27,18 @@ dims = obj.dimensions
 max_dim = max(dims)
 cam_dist = max_dim * 1.3  # 🎯 Tighter zoom
 
-# Camera setup
-bpy.ops.object.camera_add(location=(cam_dist, -cam_dist, cam_dist * 0.6))
+# Orbit-style camera setup
+elevation_deg = 20  # Lower = more head-on
+azimuth_deg = 135   # Diagonal view
+
+elevation = math.radians(elevation_deg)
+azimuth = math.radians(azimuth_deg)
+
+x = cam_dist * math.cos(elevation) * math.cos(azimuth)
+y = cam_dist * math.cos(elevation) * math.sin(azimuth)
+z = cam_dist * math.sin(elevation)
+
+bpy.ops.object.camera_add(location=(x, y, z))
 camera = bpy.context.object
 track = camera.constraints.new(type='TRACK_TO')
 track.target = obj
@@ -37,7 +47,7 @@ track.up_axis = 'UP_Y'
 bpy.context.scene.camera = camera
 
 # Lighting
-bpy.ops.object.light_add(type='SUN', location=(cam_dist, -cam_dist, cam_dist * 1.5))
+bpy.ops.object.light_add(type='SUN', location=(x, y, z + cam_dist * 0.5))
 
 # Render settings
 scene = bpy.context.scene
