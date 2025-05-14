@@ -36,7 +36,7 @@ bpy.ops.object.empty_add(type='PLAIN_AXES', location=target_location)
 target = bpy.context.object
 
 elevation_deg = 10
-azimuth_deg = 315
+azimuth_deg = 270
 
 elevation = math.radians(elevation_deg)
 azimuth = math.radians(azimuth_deg)
