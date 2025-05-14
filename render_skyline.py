@@ -47,7 +47,6 @@ scene.cycles.use_denoising = False
 scene.render.resolution_x = 1024
 scene.render.resolution_y = 768
 scene.render.image_settings.file_format = 'PNG'
-scene.render.use_ambient_occlusion = True
 
 # World setup
 if not scene.world:
