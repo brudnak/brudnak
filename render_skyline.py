@@ -26,19 +26,19 @@ obj.scale = (1.1, 1.1, 1.1)
 # Auto framing
 dims = obj.dimensions
 max_dim = max(dims)
-cam_dist = max_dim * 1.6  # 🔍 Zoom out a bit more
+cam_dist = max_dim * 1.6  # 🔍 Pull back for full frame
 
-# Position target near the back-center of the skyline (looking toward front)
+# Set tracking point slightly behind model center, aiming into the skyline
 obj_center = obj.location
-target_location = obj_center + Vector((0, max_dim * 0.3, 0))
+target_location = obj_center + Vector((0, max_dim * 0.25, 0))
 
-# Create Empty target object for camera to look at
+# Create Empty to track
 bpy.ops.object.empty_add(type='PLAIN_AXES', location=target_location)
 target = bpy.context.object
 
-# Orbit-style camera setup: placed in front of engraved face, aimed through skyline
-elevation_deg = 20  # Slight top-down
-azimuth_deg = 45    # 🔁 Shifted to front-right to capture front plate
+# Camera setup
+elevation_deg = 20  # Slight overhead
+azimuth_deg = 225   # ⬅️ Camera in front-left, looking diagonally in
 
 elevation = math.radians(elevation_deg)
 azimuth = math.radians(azimuth_deg)
