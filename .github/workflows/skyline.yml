@@ -2,7 +2,7 @@ name: Daily GitHub Skyline
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Daily at midnight UTC
+    - cron: '0 0 * * *'
   workflow_dispatch:
 
 jobs:
@@ -13,9 +13,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Install GitHub CLI manually (bypass APT)
+      - name: Install GitHub CLI (latest release)
         run: |
-          curl -fsSL https://github.com/cli/cli/releases/latest/download/gh_2.47.0_linux_amd64.tar.gz -o gh.tar.gz
+          LATEST_URL=$(curl -s https://api.github.com/repos/cli/cli/releases/latest \
+            | grep "browser_download_url.*linux_amd64.tar.gz" \
+            | cut -d '"' -f 4)
+          curl -fsSL "$LATEST_URL" -o gh.tar.gz
           tar -xzf gh.tar.gz
           sudo cp gh_*/bin/gh /usr/local/bin
 
