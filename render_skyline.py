@@ -26,7 +26,7 @@ obj.scale = (1.1, 1.1, 1.1)
 # Auto framing
 dims = obj.dimensions
 max_dim = max(dims)
-cam_dist = max_dim * 2.0
+cam_dist = max_dim * 1.5
 
 obj_center = obj.location
 target_location = obj.location
