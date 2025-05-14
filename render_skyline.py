@@ -26,19 +26,19 @@ obj.scale = (1.1, 1.1, 1.1)
 # Auto framing
 dims = obj.dimensions
 max_dim = max(dims)
-cam_dist = max_dim * 1.6  # 🔍 Pull back for full frame
+cam_dist = max_dim * 1.4  # 🎯 Zoom in slightly
 
-# Set tracking point slightly behind model center, aiming into the skyline
+# Set tracking target slightly into the model (center-back)
 obj_center = obj.location
 target_location = obj_center + Vector((0, max_dim * 0.25, 0))
 
-# Create Empty to track
+# Add empty to track
 bpy.ops.object.empty_add(type='PLAIN_AXES', location=target_location)
 target = bpy.context.object
 
 # Camera setup
-elevation_deg = 20  # Slight overhead
-azimuth_deg = 225   # ⬅️ Camera in front-left, looking diagonally in
+elevation_deg = 10   # 👀 Lower angle
+azimuth_deg = 190    # 🔁 More head-on to engraved face
 
 elevation = math.radians(elevation_deg)
 azimuth = math.radians(azimuth_deg)
