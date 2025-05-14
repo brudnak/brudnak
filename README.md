@@ -6,6 +6,10 @@
 
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
+### 🏙️ Full GitHub Skyline
+
+[View STL file on GitHub](./skyline-full.stl)
+
 <!-- log tracker start -->
 
 ## $${\color{teal}Global} \color{orange}Commits$$

@@ -1,0 +1,41 @@
+name: Daily GitHub Skyline
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  generate-skyline:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install GitHub CLI
+        run: |
+          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+          sudo apt-add-repository https://cli.github.com/packages
+          sudo apt update
+          sudo apt install gh -y
+
+      - name: Authenticate GitHub CLI
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh auth setup-git
+
+      - name: Install gh-skyline extension
+        run: gh extension install github/gh-skyline
+
+      - name: Generate STL for full contribution history
+        run: |
+          gh skyline --full --output skyline-full.stl
+
+      - name: Commit and push STL
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add skyline-full.stl
+          git commit -m "Update full skyline STL - $(date -u)" || echo "No changes to commit"
+          git push
