@@ -26,9 +26,8 @@ obj.scale = (1.1, 1.1, 1.1)
 # Auto framing
 dims = obj.dimensions
 max_dim = max(dims)
-cam_dist = max_dim * 1.4  # ✅ Slight zoom-in
+cam_dist = max_dim * 1.8
 
-# Position target toward the back of the skyline (looking from front)
 obj_center = obj.location
 target_location = obj_center + Vector((0, max_dim * 0.25, 0))
 
@@ -36,9 +35,8 @@ target_location = obj_center + Vector((0, max_dim * 0.25, 0))
 bpy.ops.object.empty_add(type='PLAIN_AXES', location=target_location)
 target = bpy.context.object
 
-# Camera setup: low angle, front-right view
 elevation_deg = 10
-azimuth_deg = 315  # ✅ Orbit to front-right where engraving is
+azimuth_deg = 315
 
 elevation = math.radians(elevation_deg)
 azimuth = math.radians(azimuth_deg)
