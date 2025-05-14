@@ -26,10 +26,10 @@ obj.scale = (1.1, 1.1, 1.1)
 # Auto framing
 dims = obj.dimensions
 max_dim = max(dims)
-cam_dist = max_dim * 1.8
+cam_dist = max_dim * 2.0
 
 obj_center = obj.location
-target_location = obj_center + Vector((0, max_dim * 0.25, 0))
+target_location = obj.location
 
 # Create Empty tracking target
 bpy.ops.object.empty_add(type='PLAIN_AXES', location=target_location)
