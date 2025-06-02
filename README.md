@@ -6,7 +6,7 @@
 
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
-## $${\color{deepskyblue}GitHub} \color{orange}Skyline$$  
+## 🌃 GitHub Skyline 
 ![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
 
 <p align="center">
@@ -22,7 +22,7 @@
 
 <!-- log tracker start -->
 
-## $${\color{deepskyblue}Global} \color{orange}Commits$$  
+## 🗺️ Global Commits  
 ![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
 
 | Country  | Region / State | City           | Sessions |
