@@ -36,3 +36,5 @@ jobs:
           git add README.md
           git diff --cached --quiet || git commit -m "📍 Updated code location table"
           git push
+          git config --global user.name "Andrew Brudnak"
+          git config --global user.email "brudnak@protonmail.com"
