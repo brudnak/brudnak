@@ -22,14 +22,14 @@
 
 <!-- log tracker start -->
 
-## $${\color{teal}Global} \color{orange}Commits$$
+## $$Global Commits
 ![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
 
-| Country | Region / State | City | Sessions |
-|---------|-----------------|------|----------|
-| 🇨🇦 Canada | Quebec | L'Ange-Gardien | 1 |
-| 🇨🇦 Canada | Quebec | Québec | 3 |
-| 🇺🇸 United States | New York | Niagara Falls | 1 |
+| Country         | Region / State | City           | Sessions |
+| --------------- | -------------- | -------------- | -------- |
+| 🇨🇦 Canada        | Quebec         | L'Ange-Gardien | 1        |
+| 🇨🇦 Canada        | Quebec         | Québec         | 3        |
+| 🇺🇸 United States | New York       | Niagara Falls  | 1        |
 
 <!-- log tracker end -->
 
