@@ -22,7 +22,7 @@
 
 <!-- log tracker start -->
 
-## $$Global Commits
+## 🗺️ Global Commits
 ![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
 
 | Country         | Region / State | City           | Sessions |
