@@ -29,6 +29,7 @@
 |---------|-----------------|------|----------|
 | 🇨🇦 Canada | Quebec | L'Ange-Gardien | 1 |
 | 🇨🇦 Canada | Quebec | Québec | 3 |
+| 🇺🇸 United States | Indiana | Plainfield | 1 |
 | 🇺🇸 United States | New York | Niagara Falls | 2 |
 
 <!-- log tracker end -->
