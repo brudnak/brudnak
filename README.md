@@ -8,6 +8,10 @@
   <a href="https://github.com/brudnak/brudnak/blob/main/img/bob.mp4">
     <img src="https://github.com/brudnak/brudnak/blob/main/img/bob.gif" alt="bob" />
   </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/brudnak/brudnak/blob/main/img/bob.mp4">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/fire.gif" alt="fire" />
+  </a>
 </p>
 
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
