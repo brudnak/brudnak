@@ -4,6 +4,10 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://github.com/brudnak/brudnak/blob/main/img/bob.gif" />
+</p>
+
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
 ## 🌃 GitHub Skyline 
@@ -25,14 +29,14 @@
 ## 🗺️ Global Commits
 ![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
 
-| Country | Region / State | City | Sessions |
-|---------|-----------------|------|----------|
-| 🇨🇦 Canada | Quebec | L'Ange-Gardien | 1 |
-| 🇨🇦 Canada | Quebec | Québec | 3 |
-| 🇺🇸 United States | Arizona | Phoenix | 1 |
-| 🇺🇸 United States | Indiana | Plainfield | 1 |
-| 🇺🇸 United States | New York | Niagara Falls | 2 |
-| 🇺🇸 United States | Oklahoma | Oklahoma City | 1 |
+| Country         | Region / State | City           | Sessions |
+| --------------- | -------------- | -------------- | -------- |
+| 🇨🇦 Canada        | Quebec         | L'Ange-Gardien | 1        |
+| 🇨🇦 Canada        | Quebec         | Québec         | 3        |
+| 🇺🇸 United States | Arizona        | Phoenix        | 1        |
+| 🇺🇸 United States | Indiana        | Plainfield     | 1        |
+| 🇺🇸 United States | New York       | Niagara Falls  | 2        |
+| 🇺🇸 United States | Oklahoma       | Oklahoma City  | 1        |
 
 <!-- log tracker end -->
 
