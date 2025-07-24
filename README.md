@@ -5,7 +5,9 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/brudnak/brudnak/blob/main/img/bob.gif" />
+  <a href="https://github.com/brudnak/brudnak/blob/main/img/bob.mp4">
+    <img src="https://github.com/brudnak/brudnak/blob/main/img/bob.gif" alt="bob" />
+  </a>
 </p>
 
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
