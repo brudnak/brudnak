@@ -1,3 +1,13 @@
+```shell
+for pod in $(kubectl get pods -n cattle-system --no-headers -o custom-columns=":metadata.name" | grep "^rancher-" | grep -v "^rancher-webhook"); do
+    # Copy local vai-vacuum to pod and run it
+    kubectl cp ./vai-vacuum cattle-system/$pod:/tmp/vai-vacuum -c rancher
+    kubectl exec $pod -n cattle-system -c rancher -- sh -c \
+        "chmod +x /tmp/vai-vacuum && /tmp/vai-vacuum && rm /tmp/vai-vacuum" \
+        | base64 -d > ${pod}-snapshot.db
+done
+```
+
 <p align="center">
   <a href="https://open.spotify.com/user/upv50bd8fofqcy9yibbgfmwly">
     <img src="https://novatorem-gamma-two.vercel.app/api/spotify" alt="What I'm listening to on Spotify... Loading..." />
