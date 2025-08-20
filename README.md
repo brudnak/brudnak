@@ -1,10 +1,17 @@
 ```shell
+#!/bin/bash
+
+BINARY_URL="https://github.com/brudnak/vai-vacuum/releases/download/v1.0.0-beta/vai-vacuum"
+
 for pod in $(kubectl get pods -n cattle-system --no-headers -o custom-columns=":metadata.name" | grep "^rancher-" | grep -v "^rancher-webhook"); do
-    # Copy local vai-vacuum to pod and run it
-    kubectl cp ./vai-vacuum cattle-system/$pod:/tmp/vai-vacuum -c rancher
+    echo "Processing pod: $pod"
+    
+    # Download and run vai-vacuum directly in the pod
     kubectl exec $pod -n cattle-system -c rancher -- sh -c \
-        "chmod +x /tmp/vai-vacuum && /tmp/vai-vacuum && rm /tmp/vai-vacuum" \
+        "curl -kL -o /tmp/vai-vacuum '$BINARY_URL' && chmod +x /tmp/vai-vacuum && /tmp/vai-vacuum && rm /tmp/vai-vacuum" \
         | base64 -d > ${pod}-snapshot.db
+    
+    echo "Snapshot saved to ${pod}-snapshot.db"
 done
 ```
 
