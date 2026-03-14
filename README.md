@@ -16,10 +16,13 @@ done
 ```
 
 <p align="center">
-  <a href="https://open.spotify.com/user/upv50bd8fofqcy9yibbgfmwly">
-    <img src="https://novatorem-gamma-two.vercel.app/api/spotify" alt="What I'm listening to on Spotify... Loading..." />
-  </a>
+  [![Apple Music GitHub profile](https://music-profile.rayriffy.com/theme/light.svg?uid=000785.fee0d6c827a34238bd30098893b45df7.2205#gh-light-mode-only)](https://music-profile.rayriffy.com)
 </p>
+
+<p align="center">
+  [![Apple Music GitHub profile](https://music-profile.rayriffy.com/theme/dark.svg?uid=000785.fee0d6c827a34238bd30098893b45df7.2205#gh-dark-mode-only)](https://music-profile.rayriffy.com)
+</p>
+
 
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
@@ -42,18 +45,18 @@ done
 ## 🗺️ Global Commits
 ![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
 
-| Country | Region / State | City | Sessions |
-|---------|-----------------|------|----------|
-| 🇨🇦 Canada | Quebec | L'Ange-Gardien | 1 |
-| 🇨🇦 Canada | Quebec | Québec | 3 |
-| 🇺🇸 United States | Arizona | Phoenix | 1 |
-| 🇺🇸 United States | Florida | Jacksonville | 1 |
-| 🇺🇸 United States | Florida | Orlando | 1 |
-| 🇺🇸 United States | Indiana | Plainfield | 1 |
-| 🇺🇸 United States | New York | Niagara Falls | 2 |
-| 🇺🇸 United States | Oklahoma | Oklahoma City | 1 |
-| 🇺🇸 United States | Texas | Fort Stockton | 1 |
-| 🇺🇸 United States | Virginia | Purcellville | 1 |
+| Country         | Region / State | City           | Sessions |
+| --------------- | -------------- | -------------- | -------- |
+| 🇨🇦 Canada        | Quebec         | L'Ange-Gardien | 1        |
+| 🇨🇦 Canada        | Quebec         | Québec         | 3        |
+| 🇺🇸 United States | Arizona        | Phoenix        | 1        |
+| 🇺🇸 United States | Florida        | Jacksonville   | 1        |
+| 🇺🇸 United States | Florida        | Orlando        | 1        |
+| 🇺🇸 United States | Indiana        | Plainfield     | 1        |
+| 🇺🇸 United States | New York       | Niagara Falls  | 2        |
+| 🇺🇸 United States | Oklahoma       | Oklahoma City  | 1        |
+| 🇺🇸 United States | Texas          | Fort Stockton  | 1        |
+| 🇺🇸 United States | Virginia       | Purcellville   | 1        |
 
 <!-- log tracker end -->
 <hr>
