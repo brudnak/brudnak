@@ -15,12 +15,11 @@ for pod in $(kubectl get pods -n cattle-system --no-headers -o custom-columns=":
 done
 ```
 
-<p align="center">
   [![Apple Music GitHub profile](https://music-profile.rayriffy.com/theme/light.svg?uid=000785.fee0d6c827a34238bd30098893b45df7.2205#gh-light-mode-only)](https://music-profile.rayriffy.com)
-</p>
+
 
 <p align="center">
-  [![Apple Music GitHub profile](https://music-profile.rayriffy.com/theme/dark.svg?uid=000785.fee0d6c827a34238bd30098893b45df7.2205#gh-dark-mode-only)](https://music-profile.rayriffy.com)
+  [![Apple Music GitHub profile](https://music-profile.rayriffy.com/theme/dark.svg?uid=000785.fee0d6c827a34238bd30098893b45df7.2205)](https://music-profile.rayriffy.com)
 </p>
 
 
