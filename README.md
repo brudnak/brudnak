@@ -15,8 +15,6 @@ for pod in $(kubectl get pods -n cattle-system --no-headers -o custom-columns=":
 done
 ```
 
-[![Apple Music GitHub profile](https://music-profile.rayriffy.com/theme/dark.svg?uid=000785.fee0d6c827a34238bd30098893b45df7.2205)](https://music-profile.rayriffy.com)
-
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
 ## 🌃 GitHub Skyline 
