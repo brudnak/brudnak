@@ -17,6 +17,12 @@ done
 
 <img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
 
+<p align="center">
+  <a href="https://open.spotify.com/user/upv50bd8fofqcy9yibbgfmwly">
+    <img src="https://novatorem.vercel.app/api/orchestrator?background_type=blur_dark&border_color=00e5ff&show_status=true" alt="Spotify Vibing Widget" />
+  </a>
+</p>
+
 ## 🌃 GitHub Skyline 
 ![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
 
