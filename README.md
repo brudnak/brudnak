@@ -19,7 +19,7 @@ done
 
 <p align="center">
   <a href="https://open.spotify.com/user/upv50bd8fofqcy9yibbgfmwly">
-    <img src="https://novatorem.vercel.app/api/orchestrator?background_type=blur_dark&border_color=00e5ff&show_status=true" alt="Spotify Vibing Widget" />
+    <img src="https://novatorem-tau-black.vercel.app/api/orchestrator?background_type=blur_dark&border_color=00e5ff&show_status=true" alt="Spotify Vibing Widget" />
   </a>
 </p>
 
