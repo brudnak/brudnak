@@ -23,6 +23,19 @@ done
   </a>
 </p>
 
+<!-- sponsorship total start -->
+
+## 🤝 Giving Back
+![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
+
+> I try to support the maintainers behind the open source tools I use. It is not about the total, just a small reminder that a little from more of us would make a real difference.
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Open%20Source%20Given-%24570%20USD-2ea44f?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Open source sponsorship total" />
+</p>
+
+<!-- sponsorship total end -->
+
 ## 🌃 GitHub Skyline 
 ![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
 
@@ -56,6 +69,7 @@ done
 | 🇺🇸 United States | Virginia       | Purcellville   | 1        |
 
 <!-- log tracker end -->
+
 <hr>
 
 <!-- Where to find these icons: https://simpleicons.org -->

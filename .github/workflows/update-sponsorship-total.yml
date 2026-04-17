@@ -1,0 +1,30 @@
+name: Update Sponsorship Total
+
+on:
+  schedule:
+    - cron: "0 0 1,11,21 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update sponsorship total in README
+        env:
+          GH_SPONSORS_PAT: ${{ secrets.GH_SPONSORS_PAT }}
+        run: bash ./update-sponsorship-total.sh
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update sponsorship total"
+          git push
