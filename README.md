@@ -30,9 +30,7 @@ done
 
 > I try to support the maintainers behind the open source tools I use. It is not about the total, just a small reminder that a little from more of us would make a real difference.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20Source%20Given-%24570%20USD-2ea44f?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Open source sponsorship total" />
-</p>
+![Open source sponsorship total](https://img.shields.io/badge/Open%20Source%20Given-%24570%20USD-2ea44f?style=for-the-badge&logo=githubsponsors&logoColor=white)
 
 <!-- sponsorship total end -->
 

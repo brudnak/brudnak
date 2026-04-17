@@ -38,9 +38,7 @@ replacement="$(cat <<EOF
 
 > I try to support the maintainers behind the open source tools I use. It is not about the total, just a small reminder that a little from more of us would make a real difference.
 
-<p align="center">
-  <img src="$badge_url" alt="Open source sponsorship total" />
-</p>
+![Open source sponsorship total]($badge_url)
 
 <!-- sponsorship total end -->
 EOF
