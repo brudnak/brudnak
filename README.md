@@ -30,7 +30,7 @@ done
 
 > I try to support the maintainers behind the open source tools I use. It is not about the total, just a small reminder that a little from more of us would make a real difference.
 
-![Open source sponsorship total](https://img.shields.io/badge/Open%20Source%20Given-%24576%20USD-2ea44f?style=for-the-badge&logo=githubsponsors&logoColor=white)
+![Open source sponsorship total](https://img.shields.io/badge/Open%20Source%20Given-%24581%20USD-2ea44f?style=for-the-badge&logo=githubsponsors&logoColor=white)
 
 <!-- sponsorship total end -->
 
