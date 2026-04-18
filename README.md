@@ -1,8 +1,12 @@
 ![automated with Go on Vercel](https://raw.githubusercontent.com/brudnak/gh-terminal/main/examples/badge-dark.svg#gh-dark-mode-only)
 ![automated with Go on Vercel](https://raw.githubusercontent.com/brudnak/gh-terminal/main/examples/badge-light.svg#gh-light-mode-only)
 
-![terminal-ticker dark](https://your-project.vercel.app/api/ticker#gh-dark-mode-only)
-![terminal-ticker light](https://your-project.vercel.app/api/ticker-light#gh-light-mode-only)
+![automated with Go on Vercel](https://raw.githubusercontent.com/brudnak/gh-terminal/main/examples/badge-dark.svg#gh-dark-mode-only)
+![automated with Go on Vercel](https://raw.githubusercontent.com/brudnak/gh-terminal/main/examples/badge-light.svg#gh-light-mode-only)
+
+![terminal-ticker dark](https://gh-terminal-git-main-brudnaks-projects.vercel.app/api/ticker#gh-dark-mode-only)
+![terminal-ticker light](https://gh-terminal-git-main-brudnaks-projects.vercel.app/api/ticker-light#gh-light-mode-only)
+
 
 ```shell
 #!/bin/bash
