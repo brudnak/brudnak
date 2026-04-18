@@ -1,10 +1,11 @@
 ![automated with Go on Vercel](https://raw.githubusercontent.com/brudnak/gh-terminal/main/examples/badge-dark.svg#gh-dark-mode-only)
 ![automated with Go on Vercel](https://raw.githubusercontent.com/brudnak/gh-terminal/main/examples/badge-light.svg#gh-light-mode-only)
 
-![terminal-ticker dark](https://gh-terminal.vercel.app/api/ticker#gh-dark-mode-only)
-![terminal-ticker light](https://gh-terminal.vercel.app/api/ticker-light#gh-light-mode-only)
-
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://gh-terminal.vercel.app/api/ticker">
+  <source media="(prefers-color-scheme: light)" srcset="https://gh-terminal.vercel.app/api/ticker-light">
+  <img alt="terminal-ticker" src="https://gh-terminal.vercel.app/api/ticker">
+</picture>
 
 ```shell
 #!/bin/bash
