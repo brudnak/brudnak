@@ -28,8 +28,11 @@ done
 
 <p align="center">
   <a href="https://open.spotify.com/user/upv50bd8fofqcy9yibbgfmwly">
-    <img src="https://novatorem-tau-black.vercel.app/api/orchestrator?background_type=blur_dark&border_color=00e5ff&show_status=true#gh-dark-mode-only" alt="Spotify Vibing Widget" />
-    <img src="https://novatorem-tau-black.vercel.app/api/orchestrator?background_type=blur_light&border_color=00e5ff&show_status=true#gh-light-mode-only" alt="Spotify Vibing Widget" />
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://novatorem-tau-black.vercel.app/api/orchestrator?background_type=blur_dark&border_color=00e5ff&show_status=true">
+      <source media="(prefers-color-scheme: light)" srcset="https://novatorem-tau-black.vercel.app/api/orchestrator?background_type=blur_light&border_color=00e5ff&show_status=true">
+      <img src="https://novatorem-tau-black.vercel.app/api/orchestrator?background_type=blur_dark&border_color=00e5ff&show_status=true" alt="Spotify Vibing Widget" />
+    </picture>
   </a>
 </p>
 
