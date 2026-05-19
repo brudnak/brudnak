@@ -24,9 +24,7 @@ for pod in $(kubectl get pods -n cattle-system --no-headers -o custom-columns=":
 done
 ```
 
-<img src="https://github.com/brudnak/brudnak/blob/main/img/online.gif" alt="" width="140">
-
-<p align="center">
+<!-- <p align="center">
   <a href="https://open.spotify.com/user/upv50bd8fofqcy9yibbgfmwly">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://novatorem-tau-black.vercel.app/api/orchestrator?background_type=blur_dark&border_color=00e5ff&show_status=true">
@@ -34,18 +32,7 @@ done
       <img src="https://novatorem-tau-black.vercel.app/api/orchestrator?background_type=blur_dark&border_color=00e5ff&show_status=true" alt="Spotify Vibing Widget" />
     </picture>
   </a>
-</p>
-
-<!-- sponsorship total start -->
-
-## 🤝 Giving Back
-![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
-
-> I try to support the maintainers behind the open source tools I use. It is not about the total, just a small reminder that a little from more of us would make a real difference.
-
-![Open source sponsorship total](https://img.shields.io/badge/Open%20Source%20Given-%24603%20USD-2ea44f?style=for-the-badge&logo=githubsponsors&logoColor=white)
-
-<!-- sponsorship total end -->
+</p> -->
 
 ## 🌃 GitHub Skyline 
 ![Auto Updated](https://img.shields.io/badge/Generated%20by-GitHub%20Actions-blue?logo=githubactions)
